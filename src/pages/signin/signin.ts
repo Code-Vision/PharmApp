@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SignupPage } from '../signup/signup';
+import { TabsPage } from '../tabs/tabs';
 
 /**
  * Generated class for the SigninPage page.
@@ -15,8 +16,12 @@ import { SignupPage } from '../signup/signup';
   templateUrl: 'signin.html',
 })
 export class SigninPage {
-   segmentPages: string = "signUp";
+   segmentPages: string = "signIn";
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
+
+  totabs(){
+    this.navCtrl.push(TabsPage)
+  }
 
   toNextPage(){
   //push the sign up continue page on to the stack

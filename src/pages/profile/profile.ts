@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SigninPage } from '../signin/signin';
 
 /**
  * Generated class for the ProfilePage page.
@@ -16,6 +17,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class ProfilePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  tosignin(){
+    // this.navCtrl.pop
+    this.navCtrl.push(SigninPage)
   }
 
   ionViewDidLoad() {
