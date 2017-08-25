@@ -301,7 +301,7 @@ var SigninPage = (function () {
 SigninPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-signin',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/signin/signin.html"*/'<!--\n  Generated template for the SigninPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>SignIn</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div padding>\n    <ion-segment [(ngModel)]="segmentPages">\n      <ion-segment-button value="signIn">\n        signIn\n      </ion-segment-button>\n      <ion-segment-button value="signUp">\n        signUp\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segmentPages">\n    <ion-list *ngSwitchCase="\'signIn\'">\n  <ion-item>\n    <ion-label floating>Username</ion-label>\n    <ion-input type="text"></ion-input>\n  </ion-item>\n  <ion-item>\n  <ion-label floating>Password</ion-label>\n  <ion-input type="password"></ion-input>\n  </ion-item>\n    <div padding>\n        <button (click)="totabs()" ion-button color="primary" block>Sign In</button>\n  </div>\n  </ion-list>\n\n    <ion-list *ngSwitchCase="\'signUp\'">\n<ion-grid>\n      <ion-item>\n        <ion-row>\n    <ion-col col-6>\n      <ion-thumbnail item-start>\n        <img src="img/008-boy-1.png">\n      </ion-thumbnail>\n        Male\n  </ion-col>\n  <!-- <ion-label>Male</ion-label>\n  <ion-radio checked="true" value="male"></ion-radio> -->\n\n\n      <ion-col col-6>\n        <ion-thumbnail item-end>\n        <img src="img/002-girl-1.png" >\n        </ion-thumbnail>\n          Female\n      </ion-col>\n      <!-- <ion-label>Female</ion-label>\n  <ion-radio value="female"></ion-radio> -->\n\n      </ion-row>\n    </ion-item>\n  </ion-grid>\n\n      <ion-item>\n    <ion-label floating>First Name</ion-label>\n    <ion-input type="text"></ion-input>\n  </ion-item>\n\n  <ion-item>\n<ion-label floating>Last Name</ion-label>\n<ion-input type="text"></ion-input>\n</ion-item>\n\n<ion-item>\n<ion-label floating>Phone Number</ion-label>\n<ion-input type="tel"></ion-input>\n</ion-item>\n<div padding>\n    <button (click)="toNextPage()"ion-button color="primary" block>Next</button>\n</div>\n    </ion-list>\n  </div>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/signin/signin.html"*/,
+        selector: 'page-signin',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/signin/signin.html"*/'<!--\n  Generated template for the SigninPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header> -->\n\n  <!-- <ion-navbar> -->\n    <!-- <ion-title>SignIn</ion-title> -->\n  <!-- </ion-navbar> -->\n\n<!-- </ion-header> -->\n\n\n<ion-content padding>\n  <div padding>\n    <ion-segment [(ngModel)]="segmentPages">\n      <ion-segment-button value="signIn">\n        signIn\n      </ion-segment-button>\n      <ion-segment-button value="signUp">\n        signUp\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segmentPages">\n    <ion-list *ngSwitchCase="\'signIn\'">\n  <ion-item>\n    <ion-label floating>Username</ion-label>\n    <ion-input type="text"></ion-input>\n  </ion-item>\n  <ion-item>\n  <ion-label floating>Password</ion-label>\n  <ion-input type="password"></ion-input>\n  </ion-item>\n    <div padding>\n        <button (click)="totabs()" ion-button color="primary" block>Sign In</button>\n  </div>\n  </ion-list>\n\n    <ion-list *ngSwitchCase="\'signUp\'">\n<ion-grid>\n      <ion-item>\n        <ion-row>\n    <ion-col col-6>\n      <ion-thumbnail item-start>\n        <img src="img/008-boy-1.png">\n      </ion-thumbnail>\n        Male\n  </ion-col>\n  <!-- <ion-label>Male</ion-label>\n  <ion-radio checked="true" value="male"></ion-radio> -->\n\n\n      <ion-col col-6>\n        <ion-thumbnail item-end>\n        <img src="img/002-girl-1.png" >\n        </ion-thumbnail>\n          Female\n      </ion-col>\n      <!-- <ion-label>Female</ion-label>\n  <ion-radio value="female"></ion-radio> -->\n\n      </ion-row>\n    </ion-item>\n  </ion-grid>\n\n      <ion-item>\n    <ion-label floating>First Name</ion-label>\n    <ion-input type="text"></ion-input>\n  </ion-item>\n\n  <ion-item>\n<ion-label floating>Last Name</ion-label>\n<ion-input type="text"></ion-input>\n</ion-item>\n\n<ion-item>\n<ion-label floating>Phone Number</ion-label>\n<ion-input type="tel"></ion-input>\n</ion-item>\n<div padding>\n    <button (click)="toNextPage()"ion-button color="primary" block>Next</button>\n</div>\n    </ion-list>\n  </div>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/signin/signin.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], SigninPage);
@@ -470,6 +470,7 @@ var _a, _b, _c;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signin_signin__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -479,6 +480,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 // import { TabsPage } from '../tabs/tabs';
@@ -495,9 +497,9 @@ var ProfilePage = (function () {
     }
     ProfilePage.prototype.tosignin = function () {
         // this.navCtrl.pop(TabsPage)
-        // this.navCtrl.push(SigninPage)
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__signin_signin__["a" /* SigninPage */]);
         // this.navCtrl.setRoot(SigninPage);
-        this.navCtrl.popToRoot();
+        // this.navCtrl.popToRoot();
     };
     ProfilePage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad ProfilePage');

@@ -22,9 +22,9 @@ export class ProfilePage {
 
   tosignin(){
     // this.navCtrl.pop(TabsPage)
-    // this.navCtrl.push(SigninPage)
+    this.navCtrl.push(SigninPage);
     // this.navCtrl.setRoot(SigninPage);
-    this.navCtrl.popToRoot();
+    // this.navCtrl.popToRoot();
   }
 
   ionViewDidLoad() {
