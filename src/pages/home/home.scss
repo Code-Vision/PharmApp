@@ -1,3 +1,18 @@
 page-home {
+  .searchbar-md .searchbar-input {
+    box-shadow: none;
+  }
+
+  .sugestedimg{
+    margin: 0 auto;
+      background-repeat: no-repeat;
+      border-radius: 55px;
+      height: 60px;
+      width: 60px;
+  }
+
+  .sugestedfont{
+    font-size: 11px !important;
+  }
 
 }

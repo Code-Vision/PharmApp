@@ -1,17 +1,231 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+  <ion-row>
+    <ion-col col-4 >
+
+    </ion-col>
+    <ion-col col-4>
+      <h3 style="color: #43d1ea">PharmApp</h3>
+    </ion-col>
+  </ion-row>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
-</ion-content>
+
+<ion-content class="cards-bg social-cards">
+
+  <ion-row>
+    <ion-col col-12>
+        <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <div class="">
+      <p style="margin-left: 30px;">Suggested Topics</p>
+    </div>
+    <ion-slides pager>
+
+        <ion-slide>
+          <ion-row>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/pregnanc.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Pregnancy</p>
+            </ion-col>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/garlic.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Garlic</p>
+            </ion-col>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/ginger.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Ginger</p>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+
+        <ion-slide >
+          <ion-row>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/fruits.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Fruits</p>
+            </ion-col>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/vegetables.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Vegetables</p>
+            </ion-col>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/exercise.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Exercise</p>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+
+        <ion-slide >
+          <ion-row>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/gensen.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Pregnancy</p>
+            </ion-col>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/gensen.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Gensen</p>
+            </ion-col>
+            <ion-col col-4 padding>
+              <ion-avatar item-start >
+                <img src="img/smoking.jpg" class="sugestedimg">
+              </ion-avatar>
+              <p class="sugestedfont">Ginger</p>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+
+      </ion-slides>
+  </ion-row>
+
+
+
+  <ion-card>
+
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="img/gensen.jpg">
+    </ion-avatar>
+    <h2>McFly Pharmacy</h2>
+    <p>November 5, 1955</p>
+  </ion-item>
+
+  <img src="img/gensen.jpg">
+
+  <ion-card-content>
+    <h5>Ginseng, Fish, Berries, or Caffeine?</h5>
+    <p>Listen to the buzz about foods and dietary supplements, and you'll believe they can do everything from sharpen focus to enhance memory, attention span, and brain function.....</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="thumbs-up"></ion-icon>
+        <div>12 Likes</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="text"></ion-icon>
+        <div>4 Comments</div>
+      </button>
+    </ion-col>
+    <ion-col center text-center>
+      <ion-note>
+        11h ago
+      </ion-note>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+
+
+<ion-card>
+
+<ion-item>
+  <ion-avatar item-start>
+    <img src="img/smoking.jpg">
+  </ion-avatar>
+  <h2>McFly Pharmacy</h2>
+  <p>November 5, 1955</p>
+</ion-item>
+
+<img src="img/smoking.jpg">
+
+<ion-card-content>
+  <h5>Quitting Smoking: Tips for the First Hard Days</h5>
+  <b>Sip, Eat</b>
+  <p>Sipping cold water through a straw can help replace the act of sucking on a cigarette. It also releases dopamine, a brain chemical that can help ease bad moods.
+Eating small meals can also help you get past the urge to smoke. Choose lean, healthy foods to avoid weight gain.</p>
+</ion-card-content>
+
+<ion-row>
+  <ion-col>
+    <button ion-button icon-left clear small>
+      <ion-icon name="thumbs-up"></ion-icon>
+      <div>12 Likes</div>
+    </button>
+  </ion-col>
+  <ion-col>
+    <button ion-button icon-left clear small>
+      <ion-icon name="text"></ion-icon>
+      <div>4 Comments</div>
+    </button>
+  </ion-col>
+  <ion-col center text-center>
+    <ion-note>
+      11h ago
+    </ion-note>
+  </ion-col>
+</ion-row>
+
+</ion-card>
+
+
+
+<ion-card>
+
+<ion-item>
+  <ion-avatar item-start>
+    <img src="img/oat.jpg">
+  </ion-avatar>
+  <h2>McFly Pharmacy</h2>
+  <p>November 5, 1955</p>
+</ion-item>
+
+<img src="img/oat.jpg">
+
+<ion-card-content>
+  <h5>14 Best and Worst Foods for Your Liver</h5>
+  <b>Oatmeal</b>
+  <p>Food with lots of fiber can help your liver work at its best. Want one that's a great way to start your day? Try oatmeal. Research shows it can help you shed some extra pounds and belly fat, which is a good way to keep away liver disease.... </p>
+</ion-card-content>
+
+<ion-row>
+  <ion-col>
+    <button ion-button icon-left clear small>
+      <ion-icon name="thumbs-up"></ion-icon>
+      <div>12 Likes</div>
+    </button>
+  </ion-col>
+  <ion-col>
+    <button ion-button icon-left clear small>
+      <ion-icon name="text"></ion-icon>
+      <div>4 Comments</div>
+    </button>
+  </ion-col>
+  <ion-col center text-center>
+    <ion-note>
+      11h ago
+    </ion-note>
+  </ion-col>
+</ion-row>
+
+</ion-card>
+
+  </ion-content>
+
+  <style>
+    .social-cards ion-col {
+      padding: 0;
+    }
+  </style>
