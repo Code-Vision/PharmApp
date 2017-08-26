@@ -5,4 +5,13 @@ page-profile {
     background: transparent;
   }
 
+  ion-list {
+    background: white;
+  }
+
+
+  input::-webkit-input-placeholder {
+  color: #aaaaaa !important;
+  }
+
 }

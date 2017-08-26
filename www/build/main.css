@@ -25239,6 +25239,14 @@ page-profile .list-header-md {
   background: transparent;
 }
 
+page-profile ion-list {
+  background: white;
+}
+
+page-profile input::-webkit-input-placeholder {
+  color: #aaaaaa !important;
+}
+
 page-signin .button-round-ios {
   border-radius: 64px;
   padding: 0 2.6rem;

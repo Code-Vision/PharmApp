@@ -18,7 +18,7 @@
 
 
 <ion-content style="background-image:url('img/signup.png'); background-size: cover; background-repeat: no-repeat;">
-  <ion-list>
+  <ion-list style="background: transparent !important;">
     <ion-row>
       <ion-col col-12 style="height:200px;  background-repeat: no-repeat; ">
         <div style="text-align: center; ">
@@ -28,43 +28,70 @@
       </ion-col>
     </ion-row>
   </ion-list>
+
+
   <ion-list no-border>
     <ion-list-header>
       Details
     </ion-list-header>
+
     <ion-item>
-      <ion-toggle ></ion-toggle>
-      <ion-label class="label"> Enable notifications </ion-label>
-      <ion-icon name='notifications' item-start  style="color: #4d9fcf;"></ion-icon>
+      <ion-icon name='person' item-start style="color: #caddff;"></ion-icon>
+      <ion-input name="pin" type="text"  placeholder="Other Name"></ion-input>
     </ion-item>
+
+    <ion-item>
+      <ion-icon name='people' item-start style="color: #caddff;"></ion-icon>
+      <ion-input name="pin" type="text"  placeholder="Last Name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='phone-portrait' item-start style="color: #caddff;"></ion-icon>
+      <ion-input name="pin" type="text"  placeholder="Phone Number"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='mail' item-start style="color: #caddff;"></ion-icon>
+      <ion-input name="pin" type="text"  placeholder="Email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='lock' item-start  style="color: #caddff;"></ion-icon>
+      <ion-label>Change Password</ion-label>
+    </ion-item>
+
   </ion-list>
+
+
   <ion-list>
     <ion-list-header>
       Settings
     </ion-list-header>
 
     <ion-item>
-      <ion-icon name='help' item-start  style="color: #ffc87b;"></ion-icon>
+      <ion-toggle ></ion-toggle>
+      <ion-label class="label"> Enable notifications </ion-label>
+      <ion-icon name='notifications' item-start  style="color: #caddff;"></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='help' item-start  style="color: #caddff;"></ion-icon>
       <ion-label>Help</ion-label>
-      <ion-select >
-        <ion-option> </ion-option>
-      </ion-select>
     </ion-item>
+
     <ion-item>
-      <ion-icon name='build' item-start  style="color: #42cac6;"></ion-icon>
+      <ion-icon name='build' item-start  style="color: #caddff;"></ion-icon>
       <ion-label>Report a Problem</ion-label>
-      <ion-select >
-        <ion-option> </ion-option>
-      </ion-select>
     </ion-item>
+
     <ion-item>
-      <ion-icon name='create' item-start  style="color: #6cabf6;"></ion-icon>
+      <ion-icon name='create' item-start  style="color: #caddff;"></ion-icon>
       <ion-label>Terms and Policy</ion-label>
-      <ion-select >
-        <ion-option> </ion-option>
-      </ion-select>
     </ion-item>
+
   </ion-list>
+
+
   <ion-list>
     <ion-list-header>
       Other
