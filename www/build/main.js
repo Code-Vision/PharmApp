@@ -209,17 +209,16 @@ var MapPage = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('map'),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */])
 ], MapPage.prototype, "mapElement", void 0);
 MapPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-map',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/map/map.html"*/'<!--\n  Generated template for the MapPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>map</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-content>\n  <!-- <div id="floating-panel">\n   <b>Start: </b>\n   <select [(ngModel)]="start" id="start" (change)="calculateAndDisplayRoute()">\n     <option value="chicago, il">Chicago</option>\n     <option value="st louis, mo">St Louis</option>\n     <option value="joplin, mo">Joplin, MO</option>\n     <option value="oklahoma city, ok">Oklahoma City</option>\n     <option value="amarillo, tx">Amarillo</option>\n     <option value="gallup, nm">Gallup, NM</option>\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n     <option value="winona, az">Winona</option>\n     <option value="kingman, az">Kingman</option>\n     <option value="barstow, ca">Barstow</option>\n     <option value="san bernardino, ca">San Bernardino</option>\n     <option value="los angeles, ca">Los Angeles</option>\n   </select><br>\n   <b>End: </b>\n   <select [(ngModel)]="end" id="end" (change)="calculateAndDisplayRoute()">\n     <option value="chicago, il">Chicago</option>\n     <option value="st louis, mo">St Louis</option>\n     <option value="joplin, mo">Joplin, MO</option>\n     <option value="oklahoma city, ok">Oklahoma City</option>\n     <option value="amarillo, tx">Amarillo</option>\n     <option value="gallup, nm">Gallup, NM</option>\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n     <option value="winona, az">Winona</option>\n     <option value="kingman, az">Kingman</option>\n     <option value="barstow, ca">Barstow</option>\n     <option value="san bernardino, ca">San Bernardino</option>\n     <option value="los angeles, ca">Los Angeles</option>\n   </select>\n   </div> -->\n\n   <div #map id="map"></div>\n<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA19fJkhyN1c1GAHaABfPRSu0lJ5VeJHSo"></script>\n   </ion-content>\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/map/map.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], MapPage);
 
-var _a, _b, _c;
 //# sourceMappingURL=map.js.map
 
 /***/ }),
@@ -533,10 +532,9 @@ var MyApp = (function () {
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
-var _a, _b, _c;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
