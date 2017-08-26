@@ -3,25 +3,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 declare var google;
 
-/**
- * Generated class for the MapPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-map',
   templateUrl: 'map.html',
 })
-
 export class MapPage {
 
   @ViewChild('map') mapElement: ElementRef;
   map: any;
-  start = 'chicago, il';
-  end = 'chicago, il';
+  start = 'Accra';
+  end = 'Accra';
   directionsService = new google.maps.DirectionsService;
   directionsDisplay = new google.maps.DirectionsRenderer;
 
@@ -29,7 +21,6 @@ export class MapPage {
   }
 
   ionViewDidLoad() {
-    // console.log('ionViewDidLoad MapPage');
     this.initMap();
   }
 

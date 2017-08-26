@@ -1,4 +1,4 @@
-webpackJsonp([6],{
+webpackJsonp([7],{
 
 /***/ 100:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -164,23 +164,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-/**
- * Generated class for the MapPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 var MapPage = (function () {
     function MapPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.start = 'chicago, il';
-        this.end = 'chicago, il';
+        this.start = 'Accra';
+        this.end = 'Accra';
         this.directionsService = new google.maps.DirectionsService;
         this.directionsDisplay = new google.maps.DirectionsRenderer;
     }
     MapPage.prototype.ionViewDidLoad = function () {
-        // console.log('ionViewDidLoad MapPage');
         this.initMap();
     };
     MapPage.prototype.initMap = function () {
@@ -214,7 +207,7 @@ __decorate([
 MapPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-map',template:/*ion-inline-start:"S:\PROJECTS\ionic\Kode Vision\PharmApp\src\pages\map\map.html"*/'<!--\n\n  Generated template for the MapPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>map</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-content>\n\n  <!-- <div id="floating-panel">\n\n   <b>Start: </b>\n\n   <select [(ngModel)]="start" id="start" (change)="calculateAndDisplayRoute()">\n\n     <option value="chicago, il">Chicago</option>\n\n     <option value="st louis, mo">St Louis</option>\n\n     <option value="joplin, mo">Joplin, MO</option>\n\n     <option value="oklahoma city, ok">Oklahoma City</option>\n\n     <option value="amarillo, tx">Amarillo</option>\n\n     <option value="gallup, nm">Gallup, NM</option>\n\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n\n     <option value="winona, az">Winona</option>\n\n     <option value="kingman, az">Kingman</option>\n\n     <option value="barstow, ca">Barstow</option>\n\n     <option value="san bernardino, ca">San Bernardino</option>\n\n     <option value="los angeles, ca">Los Angeles</option>\n\n   </select><br>\n\n   <b>End: </b>\n\n   <select [(ngModel)]="end" id="end" (change)="calculateAndDisplayRoute()">\n\n     <option value="chicago, il">Chicago</option>\n\n     <option value="st louis, mo">St Louis</option>\n\n     <option value="joplin, mo">Joplin, MO</option>\n\n     <option value="oklahoma city, ok">Oklahoma City</option>\n\n     <option value="amarillo, tx">Amarillo</option>\n\n     <option value="gallup, nm">Gallup, NM</option>\n\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n\n     <option value="winona, az">Winona</option>\n\n     <option value="kingman, az">Kingman</option>\n\n     <option value="barstow, ca">Barstow</option>\n\n     <option value="san bernardino, ca">San Bernardino</option>\n\n     <option value="los angeles, ca">Los Angeles</option>\n\n   </select>\n\n   </div> -->\n\n   <div #map id="map"></div>\n\n   </ion-content>\n\n</ion-content>\n\n'/*ion-inline-end:"S:\PROJECTS\ionic\Kode Vision\PharmApp\src\pages\map\map.html"*/,
+        selector: 'page-map',template:/*ion-inline-start:"S:\PROJECTS\ionic\Kode Vision\PharmApp\src\pages\map\map.html"*/'<!--\n\n  Generated template for the MapPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>map</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <div id="floating-panel">\n\n   <b>Start: </b>\n\n   <select [(ngModel)]="start" id="start" (change)="calculateAndDisplayRoute()">\n\n     <option value="Accra">Accra</option>\n\n     <option value="Tema">Tema</option>\n\n     <option value="joplin, mo">Joplin, MO</option>\n\n     <option value="oklahoma city, ok">Oklahoma City</option>\n\n     <option value="amarillo, tx">Amarillo</option>\n\n     <option value="gallup, nm">Gallup, NM</option>\n\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n\n     <option value="winona, az">Winona</option>\n\n     <option value="kingman, az">Kingman</option>\n\n     <option value="barstow, ca">Barstow</option>\n\n     <option value="san bernardino, ca">San Bernardino</option>\n\n     <option value="los angeles, ca">Los Angeles</option>\n\n   </select><br>\n\n   <b>End: </b>\n\n   <select [(ngModel)]="end" id="end" (change)="calculateAndDisplayRoute()">\n\n     <option value="Accra">Accra</option>\n\n     <option value="Tema">Tema</option>\n\n     <option value="joplin, mo">Joplin, MO</option>\n\n     <option value="oklahoma city, ok">Oklahoma City</option>\n\n     <option value="amarillo, tx">Amarillo</option>\n\n     <option value="gallup, nm">Gallup, NM</option>\n\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n\n     <option value="winona, az">Winona</option>\n\n     <option value="kingman, az">Kingman</option>\n\n     <option value="barstow, ca">Barstow</option>\n\n     <option value="san bernardino, ca">San Bernardino</option>\n\n     <option value="los angeles, ca">Los Angeles</option>\n\n   </select>\n\n   </div>\n\n\n\n   <div #map id="map"></div>\n\n<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA19fJkhyN1c1GAHaABfPRSu0lJ5VeJHSo"></script> -->\n\n</ion-content>\n\n'/*ion-inline-end:"S:\PROJECTS\ionic\Kode Vision\PharmApp\src\pages\map\map.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], MapPage);
@@ -246,27 +239,31 @@ webpackEmptyAsyncContext.id = 112;
 var map = {
 	"../pages/call/call.module": [
 		272,
-		5
+		6
 	],
 	"../pages/chat/chat.module": [
 		273,
-		4
+		5
 	],
 	"../pages/map/map.module": [
 		274,
-		3
+		4
+	],
+	"../pages/maptest/maptest.module": [
+		276,
+		0
 	],
 	"../pages/profile/profile.module": [
 		271,
-		2
+		3
 	],
 	"../pages/signin/signin.module": [
 		275,
-		1
+		2
 	],
 	"../pages/signup/signup.module": [
 		270,
-		0
+		1
 	]
 };
 function webpackAsyncContext(req) {
@@ -446,16 +443,21 @@ AppModule = __decorate([
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
+                scrollPadding: false,
+                scrollAssist: true,
+                autoFocusAssist: false
+            }, {
                 links: [
                     { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/call/call.module#CallPageModule', name: 'CallPage', segment: 'call', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/chat/chat.module#ChatPageModule', name: 'ChatPage', segment: 'chat', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/map/map.module#MapPageModule', name: 'MapPage', segment: 'map', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/signin/signin.module#SigninPageModule', name: 'SigninPage', segment: 'signin', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/signin/signin.module#SigninPageModule', name: 'SigninPage', segment: 'signin', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/maptest/maptest.module#MaptestPageModule', name: 'MaptestPage', segment: 'maptest', priority: 'low', defaultHistory: [] }
                 ]
-            })
+            }),
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
         entryComponents: [
@@ -520,6 +522,7 @@ var MyApp = (function () {
             // Here you can do any higher level native things you might need.
             statusBar.styleDefault();
             splashScreen.hide();
+            // Keyboard.disableScroll(false);
         });
     }
     return MyApp;
