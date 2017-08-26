@@ -25215,3 +25215,58 @@ page-home .sugestedimg {
 page-home .sugestedfont {
   font-size: 11px !important;
 }
+
+page-signin .button-round-ios {
+  border-radius: 64px;
+  padding: 0 2.6rem;
+  width: 300px;
+}
+
+page-signin .button-round-md {
+  border-radius: 64px;
+  padding: 0 2.6rem;
+  width: 300px;
+}
+
+page-signin #signInButton {
+  margin-top: 20px;
+  width: 300px;
+}
+
+page-signin img {
+  max-width: 100%;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  -o-border-image: initial;
+  border-image: initial;
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 15%;
+}
+
+page-signin .userName {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  width: 300px;
+  height: auto;
+  border: 2px solid;
+  border-style: groove;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+page-signin .passWord {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  width: 300px;
+  height: auto;
+  border: 2px solid;
+  border-style: groove;
+}

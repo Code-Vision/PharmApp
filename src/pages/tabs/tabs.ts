@@ -5,6 +5,8 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { ProfilePage } from '../profile/profile';
 import { CallPage } from '../call/call';
+import { ChatPage } from '../chat/chat';
+import { MapPage } from '../map/map';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -12,8 +14,8 @@ import { CallPage } from '../call/call';
 export class TabsPage {
 
   tab1Root = HomePage;
-  tab2Root = AboutPage;
-  tab3Root = ContactPage;
+  tab2Root = ChatPage;
+  tab3Root = MapPage;
   tab4Root = CallPage;
   tab5Root = ProfilePage;
 

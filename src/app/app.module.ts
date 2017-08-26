@@ -11,6 +11,8 @@ import { SigninPage } from '../pages/signin/signin';
 import { SignupPage } from '../pages/signup/signup';
 import { ProfilePage } from '../pages/profile/profile';
 import { CallPage } from '../pages/call/call';
+import { ChatPage } from '../pages/chat/chat';
+import { MapPage } from '../pages/map/map';
 
 
 
@@ -28,7 +30,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SigninPage,
     SignupPage,
     ProfilePage,
-    CallPage
+    CallPage,
+    ChatPage,
+    MapPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SigninPage,
     SignupPage,
     ProfilePage,
-    CallPage
+    CallPage,
+    ChatPage,
+    MapPage
 
   ],
   providers: [

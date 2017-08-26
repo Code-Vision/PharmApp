@@ -5,15 +5,24 @@
   Ionic pages and navigation.
 -->
 <!-- <ion-header> -->
+  <!-- <ion-row> -->
+    <!-- <ion-col col-4 > -->
 
-  <!-- <ion-navbar> -->
-    <!-- <ion-title>SignIn</ion-title> -->
-  <!-- </ion-navbar> -->
-
+    <!-- </ion-col> -->
+    <!-- <ion-col col-4> -->
+      <!-- <h3 style="color: #43d1ea">PharmApp</h3> -->
+      <!-- <img src="img/icon.png"> -->
+    <!-- </ion-col> -->
+  <!-- </ion-row> -->
+  <!-- <ion-row>
+    <ion-col col-12>
+        <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    </ion-col>
+  </ion-row> -->
 <!-- </ion-header> -->
 
-
-<ion-content padding>
+<ion-content style="background-image: url('img/mains.png');background-size:cover; background-repeat: no-repeat">
+  <img src="img/icon.png">
   <div padding>
     <ion-segment [(ngModel)]="segmentPages">
       <ion-segment-button value="signIn">
@@ -27,16 +36,18 @@
 
   <div [ngSwitch]="segmentPages">
     <ion-list *ngSwitchCase="'signIn'">
-  <ion-item>
-    <ion-label floating>Username</ion-label>
-    <ion-input type="text"></ion-input>
+      <!-- <div class="userName"> -->
+  <ion-item class="userName">
+    <!-- <ion-label fixed>Username</ion-label> -->
+    <ion-input type="text" placeholder="Username"></ion-input>
   </ion-item>
-  <ion-item>
-  <ion-label floating>Password</ion-label>
-  <ion-input type="password"></ion-input>
+  <!-- </div> -->
+  <ion-item class="passWord">
+  <!-- <ion-label fixed>Password</ion-label> -->
+  <ion-input type="password" placeholder="Password"></ion-input>
   </ion-item>
-    <div padding>
-        <button (click)="totabs()" ion-button color="primary" block>Sign In</button>
+    <div padding id="signInButton">
+        <button (click)="totabs()" ion-button color="primary" round>Sign In</button>
   </div>
   </ion-list>
 

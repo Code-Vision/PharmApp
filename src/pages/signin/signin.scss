@@ -1,3 +1,69 @@
 page-signin {
+  // background-color: red;
+
+  // #wholePage{
+  //   background-image: url('img/main.png');
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  // }
+
+
+  // #usernameInput{
+  //   margin-top: 70px;
+  // }
+  //
+
+.button-round-ios {
+    border-radius: 64px;
+    padding: 0 2.6rem;
+    width: 300px;
+}
+
+.button-round-md {
+    border-radius: 64px;
+    padding: 0 2.6rem;
+    width: 300px;
+}
+
+  #signInButton{
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  img {
+    max-width: 100%;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin-left: 50px;
+    margin-top: 50px;
+    height:15%;
+}
+
+  .userName{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 300px;
+    height:auto;
+    border: 2px solid;
+    border-style:groove;
+    backface-visibility: visible;
+  }
+
+  .passWord{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 300px;
+    height:auto;
+    border: 2px solid;
+    border-style: groove;
+  }
 
 }

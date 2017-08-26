@@ -3,11 +3,13 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { TabsPage } from '../pages/tabs/tabs';
+// import { TabsPage } from '../pages/tabs/tabs';
 import { SigninPage } from '../pages/signin/signin';
-import { SignupPage } from '../pages/signup/signup';
-import { ProfilePage } from '../pages/profile/profile';
-import { CallPage } from '../pages/call/call';
+// import { SignupPage } from '../pages/signup/signup';
+// import { ProfilePage } from '../pages/profile/profile';
+// import { CallPage } from '../pages/call/call';
+// import { ChatPage } from '../pages/chat/chat';
+// import { MapPage } from '../pages/map/map';
 
 @Component({
   templateUrl: 'app.html'
