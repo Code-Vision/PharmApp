@@ -5,27 +5,32 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Profile
-    </ion-title>
-  </ion-navbar>
+  <ion-row>
+    <ion-col col-5 >
+
+    </ion-col>
+    <ion-col col-4>
+      <h3 style="color: #43d1ea;">Profile</h3>
+    </ion-col>
+  </ion-row>
 </ion-header>
+
 
 
 <ion-content style="background-image:url('img/signup.png'); background-size: cover; background-repeat: no-repeat;">
   <ion-list>
-    <ion-list-header>
-      <ion-avatar item-start (click)="updateProfileImage()">
-        <img src="img/appbg.jpg">
-      </ion-avatar>
-      <p class="username">Selassie Boye</p>
-      <p>Owner</p>
-    </ion-list-header>
+    <ion-row>
+      <ion-col col-12 style="height:200px;  background-repeat: no-repeat; ">
+        <div style="text-align: center; ">
+            <img src="img/user.png" class="slide-image" height="100" width="100" style="margin-top: 55px; border-radius: 159px 159px 159px 159px; border: 4px solid #fff;"/>
+            <p>Change Photo</p>
+        </div>
+      </ion-col>
+    </ion-row>
   </ion-list>
   <ion-list no-border>
     <ion-list-header>
-      General
+      Details
     </ion-list-header>
     <ion-item>
       <ion-toggle ></ion-toggle>

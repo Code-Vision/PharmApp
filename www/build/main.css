@@ -25227,6 +25227,18 @@ page-home .sugestedfont {
   font-size: 11px !important;
 }
 
+page-home .swiper-container {
+  height: 120px;
+}
+
+page-home .searchbar-md .searchbar-input {
+  background: transparent;
+}
+
+page-profile .list-header-md {
+  background: transparent;
+}
+
 page-signin .button-round-ios {
   border-radius: 64px;
   padding: 0 2.6rem;
