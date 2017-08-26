@@ -25199,6 +25199,17 @@ ion-navbar.toolbar {
   }
 }
 
+.toolbar-background-md {
+  border-color: #b2b2b2;
+  background: #f8f8f8;
+  background: transparent;
+}
+
+.toolbar-background-ios {
+  background: #f8f8f8;
+  background: transparent;
+}
+
 page-home .searchbar-md .searchbar-input {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -25233,6 +25244,25 @@ page-signin #signInButton {
   width: 300px;
 }
 
+page-signin #signUpButton {
+  margin-top: 20px;
+  width: 300px;
+}
+
+page-signin .button-round-md {
+  border-radius: 64px;
+  padding: 0 2.6rem;
+  width: 300px;
+  margin-left: 13px;
+}
+
+page-signin .button-round-ios {
+  border-radius: 64px;
+  padding: 0 2.6rem;
+  width: 300px;
+  margin-left: 15px;
+}
+
 page-signin img {
   max-width: 100%;
   border-width: 0px;
@@ -25245,7 +25275,7 @@ page-signin img {
   height: 15%;
 }
 
-page-signin .userName {
+page-signin .firstInput {
   display: block;
   margin-top: 30px;
   margin-left: auto;
@@ -25259,7 +25289,7 @@ page-signin .userName {
   backface-visibility: visible;
 }
 
-page-signin .passWord {
+page-signin .secondInput {
   display: block;
   margin-top: 30px;
   margin-left: auto;
@@ -25269,4 +25299,68 @@ page-signin .passWord {
   height: auto;
   border: 2px solid;
   border-style: groove;
+}
+
+page-signup .firstInput {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  width: 300px;
+  height: auto;
+  border: 2px solid;
+  border-style: groove;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+page-signup .toolbar-background-md {
+  border-color: #b2b2b2;
+  background: #f8f8f8;
+  background: transparent;
+}
+
+page-signup .toolbar-background-ios {
+  background: #f8f8f8;
+  background: transparent;
+}
+
+page-signup .secondInput {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  width: 300px;
+  height: auto;
+  border: 2px solid;
+  border-style: groove;
+}
+
+page-signup #signUpButton {
+  margin-top: 20px;
+  width: 300px;
+}
+
+page-signup .button-round-ios {
+  border-radius: 64px;
+  padding: 0 2.6rem;
+  width: 300px;
+}
+
+page-signup .button-round-md {
+  border-radius: 64px;
+  padding: 0 2.6rem;
+  width: 300px;
+}
+
+page-signup .item-md.item-block .item-inner {
+  padding-right: 8px;
+  border-bottom: None;
+}
+
+page-signup .item-ios.item-block .item-inner {
+  padding-right: 8px;
+  border-bottom: None;
 }

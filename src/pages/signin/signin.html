@@ -37,12 +37,12 @@
   <div [ngSwitch]="segmentPages">
     <ion-list *ngSwitchCase="'signIn'">
       <!-- <div class="userName"> -->
-  <ion-item class="userName">
+  <ion-item class="firstInput">
     <!-- <ion-label fixed>Username</ion-label> -->
     <ion-input type="text" placeholder="Username"></ion-input>
   </ion-item>
   <!-- </div> -->
-  <ion-item class="passWord">
+  <ion-item class="secondInput">
   <!-- <ion-label fixed>Password</ion-label> -->
   <ion-input type="password" placeholder="Password"></ion-input>
   </ion-item>
@@ -52,48 +52,22 @@
   </ion-list>
 
     <ion-list *ngSwitchCase="'signUp'">
-<ion-grid>
-      <ion-item>
-        <ion-row>
-    <ion-col col-6>
-      <ion-thumbnail item-start>
-        <img src="img/008-boy-1.png">
-      </ion-thumbnail>
-        Male
-  </ion-col>
-  <!-- <ion-label>Male</ion-label>
-  <ion-radio checked="true" value="male"></ion-radio> -->
-
-
-      <ion-col col-6>
-        <ion-thumbnail item-end>
-        <img src="img/002-girl-1.png" >
-        </ion-thumbnail>
-          Female
-      </ion-col>
-      <!-- <ion-label>Female</ion-label>
-  <ion-radio value="female"></ion-radio> -->
-
-      </ion-row>
-    </ion-item>
-  </ion-grid>
-
-      <ion-item>
-    <ion-label floating>First Name</ion-label>
-    <ion-input type="text"></ion-input>
+      <ion-item class="firstInput">
+    <!-- <ion-label floating>First Name</ion-label> -->
+    <ion-input type="text" placeholder="First Name"></ion-input>
   </ion-item>
 
-  <ion-item>
-<ion-label floating>Last Name</ion-label>
-<ion-input type="text"></ion-input>
+  <ion-item class="secondInput">
+<!-- <ion-label floating>Last Name</ion-label> -->
+<ion-input type="text" placeholder="Last Name"></ion-input>
 </ion-item>
 
-<ion-item>
-<ion-label floating>Phone Number</ion-label>
-<ion-input type="tel"></ion-input>
+<ion-item class="secondInput">
+<!-- <ion-label floating>Phone Number</ion-label> -->
+<ion-input type="tel" placeholder="Phone Number"></ion-input>
 </ion-item>
-<div padding>
-    <button (click)="toNextPage()"ion-button color="primary" block>Next</button>
+<div padding id="signUpButton">
+    <button (click)="toNextPage()"ion-button color="primary" round>Next</button>
 </div>
     </ion-list>
   </div>

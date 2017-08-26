@@ -1,18 +1,5 @@
 page-signin {
-  // background-color: red;
-
-  // #wholePage{
-  //   background-image: url('img/main.png');
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
-
-
-  // #usernameInput{
-  //   margin-top: 70px;
-  // }
-  //
-
+  
 .button-round-ios {
     border-radius: 64px;
     padding: 0 2.6rem;
@@ -28,7 +15,27 @@ page-signin {
   #signInButton{
     margin-top: 20px;
     width: 300px;
+    // margin-left: 20px;
   }
+
+  #signUpButton{
+    margin-top: 20px;
+    width: 300px;
+  }
+
+.button-round-md {
+    border-radius: 64px;
+    padding: 0 2.6rem;
+    width: 300px;
+    margin-left: 13px;
+}
+
+.button-round-ios {
+    border-radius: 64px;
+    padding: 0 2.6rem;
+    width: 300px;
+    margin-left: 15px;
+}
 
   img {
     max-width: 100%;
@@ -41,7 +48,7 @@ page-signin {
     height:15%;
 }
 
-  .userName{
+  .firstInput{
     display: block;
     margin-top: 30px;
     margin-left: auto;
@@ -54,7 +61,7 @@ page-signin {
     backface-visibility: visible;
   }
 
-  .passWord{
+  .secondInput{
     display: block;
     margin-top: 30px;
     margin-left: auto;

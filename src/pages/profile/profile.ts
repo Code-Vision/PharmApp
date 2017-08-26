@@ -24,7 +24,7 @@ export class ProfilePage {
     // this.navCtrl.pop(TabsPage)
     // this.navCtrl.push(SigninPage);
     // this.navCtrl.setRoot(SigninPage);
-    this.navCtrl.popToRoot();
+    this.navCtrl.parent.parent.setRoot(SigninPage);
   }
 
   ionViewDidLoad() {

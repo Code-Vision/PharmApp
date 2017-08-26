@@ -1,3 +1,66 @@
 page-signup {
 
+  .firstInput{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 300px;
+    height:auto;
+    border: 2px solid;
+    border-style:groove;
+    backface-visibility: visible;
+  }
+
+.toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #f8f8f8;
+    background:transparent;
+}
+
+.toolbar-background-ios {
+    background: #f8f8f8;
+    background: transparent;
+}
+
+.secondInput{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 300px;
+    height:auto;
+    border: 2px solid;
+    border-style: groove;
+  }
+
+  #signUpButton{
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  .button-round-ios {
+      border-radius: 64px;
+      padding: 0 2.6rem;
+      width: 300px;
+  }
+
+  .button-round-md {
+      border-radius: 64px;
+      padding: 0 2.6rem;
+      width: 300px;
+  }
+
+  .item-md.item-block .item-inner {
+    padding-right: 8px;
+    border-bottom: None;
+}
+
+.item-ios.item-block .item-inner {
+    padding-right: 8px;
+    border-bottom: None;
+}
+
 }
