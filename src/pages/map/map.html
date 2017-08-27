@@ -5,16 +5,21 @@
   Ionic pages and navigation.
 -->
 <ion-header>
+  <ion-row>
+    <ion-col col-5 >
 
-  <ion-navbar>
-    <ion-title>map</ion-title>
-  </ion-navbar>
-
+    </ion-col>
+    <ion-col col-4>
+      <h3 style="color: #43d1ea;">Map</h3>
+    </ion-col>
+  </ion-row>
 </ion-header>
 
 
-<ion-content>
-  <div id="floating-panel">
+
+<ion-content style="background-image:url('img/signup.png'); background-size: cover; background-repeat: no-repeat;">
+
+  <!-- <div id="floating-panel">
    <b>Start: </b>
    <select [(ngModel)]="start" id="start" (change)="calculateAndDisplayRoute()">
      <option value="Accra">Accra</option>
@@ -45,7 +50,7 @@
      <option value="san bernardino, ca">San Bernardino</option>
      <option value="los angeles, ca">Los Angeles</option>
    </select>
-   </div>
+   </div> -->
 
    <div #map id="map"></div>
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA19fJkhyN1c1GAHaABfPRSu0lJ5VeJHSo"></script> -->
