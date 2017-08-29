@@ -1,4 +1,4 @@
-webpackJsonp([7],{
+webpackJsonp([8],{
 
 /***/ 100:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -43,11 +43,11 @@ var ProfilePage = (function () {
     return ProfilePage;
 }());
 ProfilePage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-profile',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/profile/profile.html"*/'<!--\n  Generated template for the ProfilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-row>\n    <ion-col col-5 >\n\n    </ion-col>\n    <ion-col col-4>\n      <h3 style="color: #43d1ea;">Profile</h3>\n    </ion-col>\n  </ion-row>\n</ion-header>\n\n\n\n<ion-content style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n  <ion-list style="background: transparent !important;">\n    <ion-row>\n      <ion-col col-12 style="height:200px;  background-repeat: no-repeat; ">\n        <div style="text-align: center; ">\n            <img src="img/user.png" class="slide-image" height="100" width="100" style="margin-top: 55px; border-radius: 159px 159px 159px 159px; border: 4px solid #fff;"/>\n            <p>Change Photo</p>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-list>\n\n\n  <ion-list no-border>\n    <ion-list-header>\n      Details\n    </ion-list-header>\n\n    <ion-item>\n      <ion-icon name=\'person\' item-start style="color: #caddff;"></ion-icon>\n      <ion-input name="pin" type="text"  placeholder="Other Name"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-icon name=\'people\' item-start style="color: #caddff;"></ion-icon>\n      <ion-input name="pin" type="text"  placeholder="Last Name"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-icon name=\'phone-portrait\' item-start style="color: #caddff;"></ion-icon>\n      <ion-input name="pin" type="text"  placeholder="Phone Number"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-icon name=\'mail\' item-start style="color: #caddff;"></ion-icon>\n      <ion-input name="pin" type="text"  placeholder="Email"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n\n  <ion-list>\n    <ion-list-header>\n      Settings\n    </ion-list-header>\n\n    <ion-item>\n      <ion-toggle ></ion-toggle>\n      <ion-label class="label"> Enable notifications </ion-label>\n      <ion-icon name=\'notifications\' item-start  style="color: #caddff;"></ion-icon>\n    </ion-item>\n\n    <ion-item>\n      <ion-icon name=\'lock\' item-start  style="color: #caddff;"></ion-icon>\n      <ion-label>Change Password</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-icon name=\'help\' item-start  style="color: #caddff;"></ion-icon>\n      <ion-label>Help</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-icon name=\'build\' item-start  style="color: #caddff;"></ion-icon>\n      <ion-label>Report a Problem</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-icon name=\'create\' item-start  style="color: #caddff;"></ion-icon>\n      <ion-label>Terms and Policy</ion-label>\n    </ion-item>\n\n  </ion-list>\n\n\n  <ion-list>\n    <ion-list-header>\n      Other\n    </ion-list-header>\n    <ion-item>\n      <ion-icon name=\'power\' item-start style="color: red;"></ion-icon>\n      <button (click)="tosignin()" ion-button item-end>\n      Logout\n      </button>\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/profile/profile.html"*/,
+        selector: 'page-profile',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n  <ion-row>\n\n    <ion-col col-5 >\n\n\n\n    </ion-col>\n\n    <ion-col col-4>\n\n      <h3 style="color: #43d1ea;">Profile</h3>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-header>\n\n\n\n\n\n\n\n<ion-content style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n  <ion-list style="background: transparent !important;">\n\n    <ion-row>\n\n      <ion-col col-12 style="height:200px;  background-repeat: no-repeat; ">\n\n        <div style="text-align: center; ">\n\n            <img src="img/user.png" class="slide-image" height="100" width="100" style="margin-top: 55px; border-radius: 159px 159px 159px 159px; border: 4px solid #fff;"/>\n\n            <p>Change Photo</p>\n\n        </div>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-list>\n\n\n\n\n\n  <ion-list no-border>\n\n    <ion-list-header>\n\n      Details\n\n    </ion-list-header>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'person\' item-start style="color: #caddff;"></ion-icon>\n\n      <ion-input name="pin" type="text"  placeholder="Other Name"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'people\' item-start style="color: #caddff;"></ion-icon>\n\n      <ion-input name="pin" type="text"  placeholder="Last Name"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'phone-portrait\' item-start style="color: #caddff;"></ion-icon>\n\n      <ion-input name="pin" type="text"  placeholder="Phone Number"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'mail\' item-start style="color: #caddff;"></ion-icon>\n\n      <ion-input name="pin" type="text"  placeholder="Email"></ion-input>\n\n    </ion-item>\n\n\n\n  </ion-list>\n\n\n\n\n\n  <ion-list>\n\n    <ion-list-header>\n\n      Settings\n\n    </ion-list-header>\n\n\n\n    <ion-item>\n\n      <ion-toggle ></ion-toggle>\n\n      <ion-label class="label"> Enable notifications </ion-label>\n\n      <ion-icon name=\'notifications\' item-start  style="color: #caddff;"></ion-icon>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'lock\' item-start  style="color: #caddff;"></ion-icon>\n\n      <ion-label>Change Password</ion-label>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'help\' item-start  style="color: #caddff;"></ion-icon>\n\n      <ion-label>Help</ion-label>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'build\' item-start  style="color: #caddff;"></ion-icon>\n\n      <ion-label>Report a Problem</ion-label>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-icon name=\'create\' item-start  style="color: #caddff;"></ion-icon>\n\n      <ion-label>Terms and Policy</ion-label>\n\n    </ion-item>\n\n\n\n  </ion-list>\n\n\n\n\n\n  <ion-list>\n\n    <ion-list-header>\n\n      Other\n\n    </ion-list-header>\n\n    <ion-item>\n\n      <ion-icon name=\'power\' item-start style="color: red;"></ion-icon>\n\n      <button (click)="tosignin()" ion-button item-end>\n\n      Logout\n\n      </button>\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\profile\profile.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], ProfilePage);
 
 //# sourceMappingURL=profile.js.map
@@ -89,11 +89,11 @@ var CallPage = (function () {
     return CallPage;
 }());
 CallPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-call',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/call/call.html"*/'<!--\n  Generated template for the CallPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-row>\n    <ion-col col-5 >\n\n    </ion-col>\n    <ion-col col-4 style="">\n      <h3 style="color: #43d1ea; margin-top: 20px !important; margin-bottom: 8px !important;">Call</h3>\n    </ion-col>\n  </ion-row>\n</ion-header>\n\n\n<ion-content class="list-avatar-page" style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n  <div style="padding:20px;">\n      <b>Call a Pharmacy by tapping on the green call button</b>\n  </div>\n\n  <ion-list>\n\n    <ion-list-header>Sugested</ion-list-header>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="img/angelini.jpg">\n      </ion-avatar>\n      <h2>Woody Pharmacy</h2>\n      <p>@woodysPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="img/dompe.jpg">\n      </ion-avatar>\n      <h2>Lightyear Pharmacy</h2>\n      <p>@LightyearPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="img/eclipsePharm.jpg">\n      </ion-avatar>\n      <h2>Jessie\'s Pharmacy</h2>\n      <p>@JessiesPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="img/garpham.jpg">\n      </ion-avatar>\n      <h2>Potao Pharmacy</h2>\n      <p>@PotaoPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n  </ion-list>\n\n  <ion-list>\n\n    <ion-list-header>Other</ion-list-header>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="img/gehealth.jpg">\n      </ion-avatar>\n      <h2>Hamm Pharmacy</h2>\n      <p>@HammPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="img/sigma.jpg">\n      </ion-avatar>\n      <h2>Slinky Dog Pharmacy</h2>\n      <p>@SlinkyPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="img/saudiPharm.jpg">\n      </ion-avatar>\n      <h2>Rex</h2>\n      <p>@SlinkyPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/img/avatar-ts-bullseye.png">\n      </ion-avatar>\n      <h2>Bullseye</h2>\n      <p>@BullseyePharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/img/avatar-ts-barbie.png">\n      </ion-avatar>\n      <h2>Barbie</h2>\n      <p>@BarbiePharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/img/avatar-ts-squeeze.png">\n      </ion-avatar>\n      <h2>Squeeze</h2>\n      <p>@SqueezePharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/img/avatar-ts-sarge.png">\n      </ion-avatar>\n      <h2>Sarge</h2>\n      <p>@SargePharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/img/avatar-ts-bopeep.png">\n      </ion-avatar>\n      <h2>Bo Peep</h2>\n      <p>@BoPharm</p>\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/call/call.html"*/,
+        selector: 'page-call',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\call\call.html"*/'<!--\n\n  Generated template for the CallPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n  <ion-row>\n\n    <ion-col col-5 >\n\n\n\n    </ion-col>\n\n    <ion-col col-4 style="">\n\n      <h3 style="color: #43d1ea; margin-top: 20px !important; margin-bottom: 8px !important;">Call</h3>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="list-avatar-page" style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n  <div style="padding:20px;">\n\n      <b>Call a Pharmacy by tapping on the green call button</b>\n\n  </div>\n\n\n\n  <ion-list>\n\n\n\n    <ion-list-header>Sugested</ion-list-header>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="img/angelini.jpg">\n\n      </ion-avatar>\n\n      <h2>Woody Pharmacy</h2>\n\n      <p>@woodysPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="img/dompe.jpg">\n\n      </ion-avatar>\n\n      <h2>Lightyear Pharmacy</h2>\n\n      <p>@LightyearPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="img/eclipsePharm.jpg">\n\n      </ion-avatar>\n\n      <h2>Jessie\'s Pharmacy</h2>\n\n      <p>@JessiesPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="img/garpham.jpg">\n\n      </ion-avatar>\n\n      <h2>Potao Pharmacy</h2>\n\n      <p>@PotaoPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n  </ion-list>\n\n\n\n  <ion-list>\n\n\n\n    <ion-list-header>Other</ion-list-header>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="img/gehealth.jpg">\n\n      </ion-avatar>\n\n      <h2>Hamm Pharmacy</h2>\n\n      <p>@HammPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="img/sigma.jpg">\n\n      </ion-avatar>\n\n      <h2>Slinky Dog Pharmacy</h2>\n\n      <p>@SlinkyPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="img/saudiPharm.jpg">\n\n      </ion-avatar>\n\n      <h2>Rex</h2>\n\n      <p>@SlinkyPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="assets/img/avatar-ts-bullseye.png">\n\n      </ion-avatar>\n\n      <h2>Bullseye</h2>\n\n      <p>@BullseyePharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="assets/img/avatar-ts-barbie.png">\n\n      </ion-avatar>\n\n      <h2>Barbie</h2>\n\n      <p>@BarbiePharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="assets/img/avatar-ts-squeeze.png">\n\n      </ion-avatar>\n\n      <h2>Squeeze</h2>\n\n      <p>@SqueezePharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="assets/img/avatar-ts-sarge.png">\n\n      </ion-avatar>\n\n      <h2>Sarge</h2>\n\n      <p>@SargePharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="assets/img/avatar-ts-bopeep.png">\n\n      </ion-avatar>\n\n      <h2>Bo Peep</h2>\n\n      <p>@BoPharm</p>\n\n      <ion-note item-end><ion-icon name="call" style="color: green; font-size: 30px;"></ion-icon></ion-note>\n\n    </ion-item>\n\n\n\n  </ion-list>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\call\call.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], CallPage);
 
 //# sourceMappingURL=call.js.map
@@ -128,6 +128,10 @@ var ChatPage = (function () {
     function ChatPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.toUser = {
+            toUserId: '210000198410281948',
+            toUserName: 'Hancock'
+        };
     }
     ChatPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad ChatPage');
@@ -135,11 +139,11 @@ var ChatPage = (function () {
     return ChatPage;
 }());
 ChatPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-chat',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/chat/chat.html"*/'<!--\n  Generated template for the ChatPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-row>\n    <ion-col col-5 >\n\n    </ion-col>\n    <ion-col col-4>\n      <h3 style="color: #43d1ea;">Chat</h3>\n    </ion-col>\n  </ion-row>\n</ion-header>\n\n\n\n<ion-content style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/chat/chat.html"*/,
+        selector: 'page-chat',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\chat\chat.html"*/'<!--\n\n  Generated template for the ChatPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-header>\n\n  <ion-row>\n\n    <ion-col col-5 >\n\n\n\n    </ion-col>\n\n    <ion-col col-4>\n\n      <h3 style="color: #43d1ea;">Chat</h3>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-header>\n\n\n\n\n\n\n\n<ion-content style="background-image: url(\'img/mains.png\');background-size:cover; background-repeat: no-repeat">\n\n  <ion-list>\n\n\n\n    <ion-item navPush="MessagePage"\n\n              [navParams]="toUser">\n\n      <ion-avatar item-left>\n\n        <img src="./assets/to-user.jpg">\n\n      </ion-avatar>\n\n      <h2>Hancock</h2>\n\n      <p>If at first you don’t succeed, call it version 1.0</p>\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\chat\chat.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], ChatPage);
 
 //# sourceMappingURL=chat.js.map
@@ -205,18 +209,18 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */])
 ], MapPage.prototype, "mapElement", void 0);
 MapPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-map',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/map/map.html"*/'<!--\n  Generated template for the MapPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-row>\n    <ion-col col-5 >\n\n    </ion-col>\n    <ion-col col-4>\n      <h3 style="color: #43d1ea;">Map</h3>\n    </ion-col>\n  </ion-row>\n</ion-header>\n\n\n\n<ion-content style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n  <!-- <div id="floating-panel">\n   <b>Start: </b>\n   <select [(ngModel)]="start" id="start" (change)="calculateAndDisplayRoute()">\n     <option value="Accra">Accra</option>\n     <option value="Tema">Tema</option>\n     <option value="joplin, mo">Joplin, MO</option>\n     <option value="oklahoma city, ok">Oklahoma City</option>\n     <option value="amarillo, tx">Amarillo</option>\n     <option value="gallup, nm">Gallup, NM</option>\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n     <option value="winona, az">Winona</option>\n     <option value="kingman, az">Kingman</option>\n     <option value="barstow, ca">Barstow</option>\n     <option value="san bernardino, ca">San Bernardino</option>\n     <option value="los angeles, ca">Los Angeles</option>\n   </select><br>\n   <b>End: </b>\n   <select [(ngModel)]="end" id="end" (change)="calculateAndDisplayRoute()">\n     <option value="Accra">Accra</option>\n     <option value="Tema">Tema</option>\n     <option value="joplin, mo">Joplin, MO</option>\n     <option value="oklahoma city, ok">Oklahoma City</option>\n     <option value="amarillo, tx">Amarillo</option>\n     <option value="gallup, nm">Gallup, NM</option>\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n     <option value="winona, az">Winona</option>\n     <option value="kingman, az">Kingman</option>\n     <option value="barstow, ca">Barstow</option>\n     <option value="san bernardino, ca">San Bernardino</option>\n     <option value="los angeles, ca">Los Angeles</option>\n   </select>\n   </div> -->\n\n   <div #map id="map"></div>\n   <ion-title>Closest Pharmacies</ion-title>\n   <ion-list>\n   <ion-item-sliding>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="img/angelini.jpg">\n        </ion-avatar>\n        <h2>Venkman</h2>\n        <p>Back off man, I\'m a scientist.</p>\n      </ion-item>\n      <ion-item-options>\n        <!-- <button ion-button color="light" icon-start>\n          <ion-icon name="ios-more"></ion-icon>\n          More\n        </button> -->\n        <button ion-button color="primary" icon-start>\n          <ion-icon name="text"></ion-icon>\n          Text\n        </button>\n        <button ion-button color="secondary" icon-start>\n          <ion-icon name="call"></ion-icon>\n          Call\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n\n\n    <ion-item-sliding>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="img/dompe.jpg">\n        </ion-avatar>\n        <h2>Egon</h2>\n        <p>We\'re gonna go full stream.</p>\n      </ion-item>\n      <ion-item-options>\n        <!-- <button ion-button color="light" icon-start>\n          <ion-icon name="ios-more"></ion-icon>\n          More\n        </button> -->\n        <button ion-button color="primary" icon-start>\n          <ion-icon name="text"></ion-icon>\n          Text\n        </button>\n        <button ion-button color="secondary" icon-start>\n          <ion-icon name="call"></ion-icon>\n          Call\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n\n    <ion-item-sliding>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="img/eclipsePharm.jpg">\n        </ion-avatar>\n        <h2>Ray</h2>\n        <p>Ugly little spud, isn\'t he?</p>\n      </ion-item>\n      <ion-item-options>\n        <!-- <button ion-button color="light" icon-start>\n          <ion-icon name="ios-more"></ion-icon>\n          More\n        </button> -->\n        <button ion-button color="primary" icon-start>\n          <ion-icon name="text"></ion-icon>\n          Text\n        </button>\n        <button ion-button color="secondary" icon-start>\n          <ion-icon name="call"></ion-icon>\n          Call\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n\n    <ion-item-sliding>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="img/eclipsePharm.jpg">\n        </ion-avatar>\n        <h2>Winston</h2>\n        <p>That\'s a big Twinkie.</p>\n      </ion-item>\n      <ion-item-options>\n        <!-- <button ion-button color="light" icon-start>\n          <ion-icon name="ios-more"></ion-icon>\n          More\n        </button> -->\n        <button ion-button color="primary" icon-start>\n          <ion-icon name="text"></ion-icon>\n          Text\n        </button>\n        <button ion-button color="secondary" icon-start>\n          <ion-icon name="call"></ion-icon>\n          Call\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n\n    <ion-item-sliding>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="img/garpham.jpg">\n        </ion-avatar>\n        <h2>Tully</h2>\n        <p>Okay, who brought the dog?</p>\n      </ion-item>\n      <ion-item-options>\n        <!-- <button ion-button color="light" icon-start>\n          <ion-icon name="ios-more"></ion-icon>\n          More\n        </button> -->\n        <button ion-button color="primary" icon-start>\n          <ion-icon name="text"></ion-icon>\n          Text\n        </button>\n        <button ion-button color="secondary" icon-start>\n          <ion-icon name="call"></ion-icon>\n          Call\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/map/map.html"*/,
+        selector: 'page-map',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\map\map.html"*/'<!--\n\n  Generated template for the MapPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n  <ion-row>\n\n    <ion-col col-5 >\n\n\n\n    </ion-col>\n\n    <ion-col col-4>\n\n      <h3 style="color: #43d1ea;">Map</h3>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-header>\n\n\n\n\n\n\n\n<ion-content style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n\n\n  <!-- <div id="floating-panel">\n\n   <b>Start: </b>\n\n   <select [(ngModel)]="start" id="start" (change)="calculateAndDisplayRoute()">\n\n     <option value="Accra">Accra</option>\n\n     <option value="Tema">Tema</option>\n\n     <option value="joplin, mo">Joplin, MO</option>\n\n     <option value="oklahoma city, ok">Oklahoma City</option>\n\n     <option value="amarillo, tx">Amarillo</option>\n\n     <option value="gallup, nm">Gallup, NM</option>\n\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n\n     <option value="winona, az">Winona</option>\n\n     <option value="kingman, az">Kingman</option>\n\n     <option value="barstow, ca">Barstow</option>\n\n     <option value="san bernardino, ca">San Bernardino</option>\n\n     <option value="los angeles, ca">Los Angeles</option>\n\n   </select><br>\n\n   <b>End: </b>\n\n   <select [(ngModel)]="end" id="end" (change)="calculateAndDisplayRoute()">\n\n     <option value="Accra">Accra</option>\n\n     <option value="Tema">Tema</option>\n\n     <option value="joplin, mo">Joplin, MO</option>\n\n     <option value="oklahoma city, ok">Oklahoma City</option>\n\n     <option value="amarillo, tx">Amarillo</option>\n\n     <option value="gallup, nm">Gallup, NM</option>\n\n     <option value="flagstaff, az">Flagstaff, AZ</option>\n\n     <option value="winona, az">Winona</option>\n\n     <option value="kingman, az">Kingman</option>\n\n     <option value="barstow, ca">Barstow</option>\n\n     <option value="san bernardino, ca">San Bernardino</option>\n\n     <option value="los angeles, ca">Los Angeles</option>\n\n   </select>\n\n   </div> -->\n\n\n\n   <div #map id="map"></div>\n\n   <ion-title>Closest Pharmacies</ion-title>\n\n   <ion-list>\n\n   <ion-item-sliding>\n\n      <ion-item>\n\n        <ion-avatar item-start>\n\n          <img src="img/angelini.jpg">\n\n        </ion-avatar>\n\n        <h2>Venkman</h2>\n\n        <p>Back off man, I\'m a scientist.</p>\n\n      </ion-item>\n\n      <ion-item-options>\n\n        <!-- <button ion-button color="light" icon-start>\n\n          <ion-icon name="ios-more"></ion-icon>\n\n          More\n\n        </button> -->\n\n        <button ion-button color="primary" icon-start>\n\n          <ion-icon name="text"></ion-icon>\n\n          Text\n\n        </button>\n\n        <button ion-button color="secondary" icon-start>\n\n          <ion-icon name="call"></ion-icon>\n\n          Call\n\n        </button>\n\n      </ion-item-options>\n\n    </ion-item-sliding>\n\n\n\n\n\n    <ion-item-sliding>\n\n      <ion-item>\n\n        <ion-avatar item-start>\n\n          <img src="img/dompe.jpg">\n\n        </ion-avatar>\n\n        <h2>Egon</h2>\n\n        <p>We\'re gonna go full stream.</p>\n\n      </ion-item>\n\n      <ion-item-options>\n\n        <!-- <button ion-button color="light" icon-start>\n\n          <ion-icon name="ios-more"></ion-icon>\n\n          More\n\n        </button> -->\n\n        <button ion-button color="primary" icon-start>\n\n          <ion-icon name="text"></ion-icon>\n\n          Text\n\n        </button>\n\n        <button ion-button color="secondary" icon-start>\n\n          <ion-icon name="call"></ion-icon>\n\n          Call\n\n        </button>\n\n      </ion-item-options>\n\n    </ion-item-sliding>\n\n\n\n    <ion-item-sliding>\n\n      <ion-item>\n\n        <ion-avatar item-start>\n\n          <img src="img/eclipsePharm.jpg">\n\n        </ion-avatar>\n\n        <h2>Ray</h2>\n\n        <p>Ugly little spud, isn\'t he?</p>\n\n      </ion-item>\n\n      <ion-item-options>\n\n        <!-- <button ion-button color="light" icon-start>\n\n          <ion-icon name="ios-more"></ion-icon>\n\n          More\n\n        </button> -->\n\n        <button ion-button color="primary" icon-start>\n\n          <ion-icon name="text"></ion-icon>\n\n          Text\n\n        </button>\n\n        <button ion-button color="secondary" icon-start>\n\n          <ion-icon name="call"></ion-icon>\n\n          Call\n\n        </button>\n\n      </ion-item-options>\n\n    </ion-item-sliding>\n\n\n\n    <ion-item-sliding>\n\n      <ion-item>\n\n        <ion-avatar item-start>\n\n          <img src="img/eclipsePharm.jpg">\n\n        </ion-avatar>\n\n        <h2>Winston</h2>\n\n        <p>That\'s a big Twinkie.</p>\n\n      </ion-item>\n\n      <ion-item-options>\n\n        <!-- <button ion-button color="light" icon-start>\n\n          <ion-icon name="ios-more"></ion-icon>\n\n          More\n\n        </button> -->\n\n        <button ion-button color="primary" icon-start>\n\n          <ion-icon name="text"></ion-icon>\n\n          Text\n\n        </button>\n\n        <button ion-button color="secondary" icon-start>\n\n          <ion-icon name="call"></ion-icon>\n\n          Call\n\n        </button>\n\n      </ion-item-options>\n\n    </ion-item-sliding>\n\n\n\n    <ion-item-sliding>\n\n      <ion-item>\n\n        <ion-avatar item-start>\n\n          <img src="img/garpham.jpg">\n\n        </ion-avatar>\n\n        <h2>Tully</h2>\n\n        <p>Okay, who brought the dog?</p>\n\n      </ion-item>\n\n      <ion-item-options>\n\n        <!-- <button ion-button color="light" icon-start>\n\n          <ion-icon name="ios-more"></ion-icon>\n\n          More\n\n        </button> -->\n\n        <button ion-button color="primary" icon-start>\n\n          <ion-icon name="text"></ion-icon>\n\n          Text\n\n        </button>\n\n        <button ion-button color="secondary" icon-start>\n\n          <ion-icon name="call"></ion-icon>\n\n          Call\n\n        </button>\n\n      </ion-item-options>\n\n    </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\map\map.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], MapPage);
 
 //# sourceMappingURL=map.js.map
 
 /***/ }),
 
-/***/ 112:
+/***/ 113:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -229,41 +233,45 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 112;
+webpackEmptyAsyncContext.id = 113;
 
 /***/ }),
 
-/***/ 153:
+/***/ 155:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/call/call.module": [
-		272,
-		6
+		275,
+		7
 	],
 	"../pages/chat/chat.module": [
-		273,
-		5
+		276,
+		6
 	],
 	"../pages/map/map.module": [
-		274,
-		4
+		277,
+		5
 	],
 	"../pages/maptest/maptest.module": [
-		276,
+		279,
+		1
+	],
+	"../pages/message/message.module": [
+		280,
 		0
 	],
 	"../pages/profile/profile.module": [
-		271,
-		3
+		274,
+		4
 	],
 	"../pages/signin/signin.module": [
-		275,
-		2
+		278,
+		3
 	],
 	"../pages/signup/signup.module": [
-		270,
-		1
+		273,
+		2
 	]
 };
 function webpackAsyncContext(req) {
@@ -277,18 +285,18 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 153;
+webpackAsyncContext.id = 155;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 154:
+/***/ 156:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__call_call__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__chat_chat__ = __webpack_require__(102);
@@ -319,7 +327,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Chat" tabIcon="chatbubbles"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Map" tabIcon="locate"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="Call" tabIcon="call"></ion-tab>\n  <ion-tab [root]="tab5Root" tabTitle="Profile" tabIcon="contact"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Chat" tabIcon="chatbubbles"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Map" tabIcon="locate"></ion-tab>\n\n  <ion-tab [root]="tab4Root" tabTitle="Call" tabIcon="call"></ion-tab>\n\n  <ion-tab [root]="tab5Root" tabTitle="Profile" tabIcon="contact"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\tabs\tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -328,7 +336,7 @@ TabsPage = __decorate([
 
 /***/ }),
 
-/***/ 155:
+/***/ 157:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -355,22 +363,84 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-row>\n    <ion-col col-4 >\n\n    </ion-col>\n    <ion-col col-4>\n      <h3 style="color: #43d1ea; margin: 0 auto !important;">PharmApp</h3>\n    </ion-col>\n  </ion-row>\n  <ion-row>\n    <ion-col col-12>\n        <ion-searchbar (ionInput)="getItems($event)" style="background: transparent;"></ion-searchbar>\n    </ion-col>\n  </ion-row>\n</ion-header>\n\n\n<ion-content class="cards-bg social-cards" style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n\n\n  <ion-row style="background: white;">\n    <div class="">\n      <p style="margin-left: 30px;">Suggested Topics</p>\n    </div>\n    <ion-slides pager>\n\n        <ion-slide>\n          <ion-row>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/pregnanc.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Pregnancy</p>\n            </ion-col>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/garlic.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Garlic</p>\n            </ion-col>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/ginger.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Ginger</p>\n            </ion-col>\n          </ion-row>\n        </ion-slide>\n\n        <ion-slide >\n          <ion-row>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/fruits.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Fruits</p>\n            </ion-col>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/vegetables.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Vegetables</p>\n            </ion-col>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/exercise.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Exercise</p>\n            </ion-col>\n          </ion-row>\n        </ion-slide>\n\n        <ion-slide >\n          <ion-row>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/gensen.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Pregnancy</p>\n            </ion-col>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/gensen.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Gensen</p>\n            </ion-col>\n            <ion-col col-4 padding>\n              <ion-avatar item-start >\n                <img src="img/smoking.jpg" class="sugestedimg">\n              </ion-avatar>\n              <p class="sugestedfont">Ginger</p>\n            </ion-col>\n          </ion-row>\n        </ion-slide>\n\n      </ion-slides>\n  </ion-row>\n\n\n\n  <ion-card>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/gensen.jpg">\n    </ion-avatar>\n    <h2>McFly Pharmacy</h2>\n    <p>November 5, 1955</p>\n  </ion-item>\n\n  <img src="img/gensen.jpg">\n\n  <ion-card-content>\n    <h5>Ginseng, Fish, Berries, or Caffeine?</h5>\n    <p>Listen to the buzz about foods and dietary supplements, and you\'ll believe they can do everything from sharpen focus to enhance memory, attention span, and brain function.....</p>\n  </ion-card-content>\n\n  <ion-row>\n    <ion-col>\n      <button ion-button icon-left clear small>\n        <ion-icon name="thumbs-up"></ion-icon>\n        <div>12 Likes</div>\n      </button>\n    </ion-col>\n    <ion-col>\n      <button ion-button icon-left clear small>\n        <ion-icon name="text"></ion-icon>\n        <div>4 Comments</div>\n      </button>\n    </ion-col>\n    <ion-col center text-center>\n      <ion-note>\n        11h ago\n      </ion-note>\n    </ion-col>\n  </ion-row>\n\n</ion-card>\n\n\n\n<ion-card>\n\n<ion-item>\n  <ion-avatar item-start>\n    <img src="img/smoking.jpg">\n  </ion-avatar>\n  <h2>McFly Pharmacy</h2>\n  <p>November 5, 1955</p>\n</ion-item>\n\n<img src="img/smoking.jpg">\n\n<ion-card-content>\n  <h5>Quitting Smoking: Tips for the First Hard Days</h5>\n  <b>Sip, Eat</b>\n  <p>Sipping cold water through a straw can help replace the act of sucking on a cigarette. It also releases dopamine, a brain chemical that can help ease bad moods.\nEating small meals can also help you get past the urge to smoke. Choose lean, healthy foods to avoid weight gain.</p>\n</ion-card-content>\n\n<ion-row>\n  <ion-col>\n    <button ion-button icon-left clear small>\n      <ion-icon name="thumbs-up"></ion-icon>\n      <div>12 Likes</div>\n    </button>\n  </ion-col>\n  <ion-col>\n    <button ion-button icon-left clear small>\n      <ion-icon name="text"></ion-icon>\n      <div>4 Comments</div>\n    </button>\n  </ion-col>\n  <ion-col center text-center>\n    <ion-note>\n      11h ago\n    </ion-note>\n  </ion-col>\n</ion-row>\n\n</ion-card>\n\n\n\n<ion-card>\n\n<ion-item>\n  <ion-avatar item-start>\n    <img src="img/oat.jpg">\n  </ion-avatar>\n  <h2>McFly Pharmacy</h2>\n  <p>November 5, 1955</p>\n</ion-item>\n\n<img src="img/oat.jpg">\n\n<ion-card-content>\n  <h5>14 Best and Worst Foods for Your Liver</h5>\n  <b>Oatmeal</b>\n  <p>Food with lots of fiber can help your liver work at its best. Want one that\'s a great way to start your day? Try oatmeal. Research shows it can help you shed some extra pounds and belly fat, which is a good way to keep away liver disease.... </p>\n</ion-card-content>\n\n<ion-row>\n  <ion-col>\n    <button ion-button icon-left clear small>\n      <ion-icon name="thumbs-up"></ion-icon>\n      <div>12 Likes</div>\n    </button>\n  </ion-col>\n  <ion-col>\n    <button ion-button icon-left clear small>\n      <ion-icon name="text"></ion-icon>\n      <div>4 Comments</div>\n    </button>\n  </ion-col>\n  <ion-col center text-center>\n    <ion-note>\n      11h ago\n    </ion-note>\n  </ion-col>\n</ion-row>\n\n</ion-card>\n\n  </ion-content>\n\n  <style>\n    .social-cards ion-col {\n      padding: 0;\n    }\n  </style>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-row>\n\n    <ion-col col-4 >\n\n\n\n    </ion-col>\n\n    <ion-col col-4>\n\n      <h3 style="color: #43d1ea; margin: 0 auto !important;">PharmApp</h3>\n\n    </ion-col>\n\n  </ion-row>\n\n  <ion-row>\n\n    <ion-col col-12>\n\n        <ion-searchbar (ionInput)="getItems($event)" style="background: transparent;"></ion-searchbar>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="cards-bg social-cards" style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n\n\n\n\n\n\n  <ion-row style="background: white;">\n\n    <div class="">\n\n      <p style="margin-left: 30px;">Suggested Topics</p>\n\n    </div>\n\n    <ion-slides pager>\n\n\n\n        <ion-slide>\n\n          <ion-row>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/pregnanc.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Pregnancy</p>\n\n            </ion-col>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/garlic.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Garlic</p>\n\n            </ion-col>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/ginger.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Ginger</p>\n\n            </ion-col>\n\n          </ion-row>\n\n        </ion-slide>\n\n\n\n        <ion-slide >\n\n          <ion-row>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/fruits.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Fruits</p>\n\n            </ion-col>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/vegetables.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Vegetables</p>\n\n            </ion-col>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/exercise.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Exercise</p>\n\n            </ion-col>\n\n          </ion-row>\n\n        </ion-slide>\n\n\n\n        <ion-slide >\n\n          <ion-row>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/gensen.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Pregnancy</p>\n\n            </ion-col>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/gensen.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Gensen</p>\n\n            </ion-col>\n\n            <ion-col col-4 padding>\n\n              <ion-avatar item-start >\n\n                <img src="img/smoking.jpg" class="sugestedimg">\n\n              </ion-avatar>\n\n              <p class="sugestedfont">Ginger</p>\n\n            </ion-col>\n\n          </ion-row>\n\n        </ion-slide>\n\n\n\n      </ion-slides>\n\n  </ion-row>\n\n\n\n\n\n\n\n  <ion-card>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/gensen.jpg">\n\n    </ion-avatar>\n\n    <h2>McFly Pharmacy</h2>\n\n    <p>November 5, 1955</p>\n\n  </ion-item>\n\n\n\n  <img src="img/gensen.jpg">\n\n\n\n  <ion-card-content>\n\n    <h5>Ginseng, Fish, Berries, or Caffeine?</h5>\n\n    <p>Listen to the buzz about foods and dietary supplements, and you\'ll believe they can do everything from sharpen focus to enhance memory, attention span, and brain function.....</p>\n\n  </ion-card-content>\n\n\n\n  <ion-row>\n\n    <ion-col>\n\n      <button ion-button icon-left clear small>\n\n        <ion-icon name="thumbs-up"></ion-icon>\n\n        <div>12 Likes</div>\n\n      </button>\n\n    </ion-col>\n\n    <ion-col>\n\n      <button ion-button icon-left clear small>\n\n        <ion-icon name="text"></ion-icon>\n\n        <div>4 Comments</div>\n\n      </button>\n\n    </ion-col>\n\n    <ion-col center text-center>\n\n      <ion-note>\n\n        11h ago\n\n      </ion-note>\n\n    </ion-col>\n\n  </ion-row>\n\n\n\n</ion-card>\n\n\n\n\n\n\n\n<ion-card>\n\n\n\n<ion-item>\n\n  <ion-avatar item-start>\n\n    <img src="img/smoking.jpg">\n\n  </ion-avatar>\n\n  <h2>McFly Pharmacy</h2>\n\n  <p>November 5, 1955</p>\n\n</ion-item>\n\n\n\n<img src="img/smoking.jpg">\n\n\n\n<ion-card-content>\n\n  <h5>Quitting Smoking: Tips for the First Hard Days</h5>\n\n  <b>Sip, Eat</b>\n\n  <p>Sipping cold water through a straw can help replace the act of sucking on a cigarette. It also releases dopamine, a brain chemical that can help ease bad moods.\n\nEating small meals can also help you get past the urge to smoke. Choose lean, healthy foods to avoid weight gain.</p>\n\n</ion-card-content>\n\n\n\n<ion-row>\n\n  <ion-col>\n\n    <button ion-button icon-left clear small>\n\n      <ion-icon name="thumbs-up"></ion-icon>\n\n      <div>12 Likes</div>\n\n    </button>\n\n  </ion-col>\n\n  <ion-col>\n\n    <button ion-button icon-left clear small>\n\n      <ion-icon name="text"></ion-icon>\n\n      <div>4 Comments</div>\n\n    </button>\n\n  </ion-col>\n\n  <ion-col center text-center>\n\n    <ion-note>\n\n      11h ago\n\n    </ion-note>\n\n  </ion-col>\n\n</ion-row>\n\n\n\n</ion-card>\n\n\n\n\n\n\n\n<ion-card>\n\n\n\n<ion-item>\n\n  <ion-avatar item-start>\n\n    <img src="img/oat.jpg">\n\n  </ion-avatar>\n\n  <h2>McFly Pharmacy</h2>\n\n  <p>November 5, 1955</p>\n\n</ion-item>\n\n\n\n<img src="img/oat.jpg">\n\n\n\n<ion-card-content>\n\n  <h5>14 Best and Worst Foods for Your Liver</h5>\n\n  <b>Oatmeal</b>\n\n  <p>Food with lots of fiber can help your liver work at its best. Want one that\'s a great way to start your day? Try oatmeal. Research shows it can help you shed some extra pounds and belly fat, which is a good way to keep away liver disease.... </p>\n\n</ion-card-content>\n\n\n\n<ion-row>\n\n  <ion-col>\n\n    <button ion-button icon-left clear small>\n\n      <ion-icon name="thumbs-up"></ion-icon>\n\n      <div>12 Likes</div>\n\n    </button>\n\n  </ion-col>\n\n  <ion-col>\n\n    <button ion-button icon-left clear small>\n\n      <ion-icon name="text"></ion-icon>\n\n      <div>4 Comments</div>\n\n    </button>\n\n  </ion-col>\n\n  <ion-col center text-center>\n\n    <ion-note>\n\n      11h ago\n\n    </ion-note>\n\n  </ion-col>\n\n</ion-row>\n\n\n\n</ion-card>\n\n\n\n  </ion-content>\n\n\n\n  <style>\n\n    .social-cards ion-col {\n\n      padding: 0;\n\n    }\n\n  </style>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\home\home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
 ], HomePage);
 
 //# sourceMappingURL=home.js.map
 
 /***/ }),
 
-/***/ 199:
+/***/ 201:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmojiProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the EmojiProvider provider.
+
+  See https://angular.io/docs/ts/latest/guide/dependency-injection.html
+  for more info on providers and Angular 2 DI.
+*/
+var EmojiProvider = (function () {
+    function EmojiProvider(http) {
+        this.http = http;
+        console.log('Hello EmojiProvider Provider');
+    }
+    EmojiProvider.prototype.getEmojis = function () {
+        var EMOJIS = "😀 😃 😄 😁 😆 😅 😂 🤣 ☺️ 😊 😇 🙂 🙃 😉 😌 😍 😘 😗 😙 😚 😋 😜 😝 😛 🤑 🤗 🤓 😎 🤡 🤠 😏 😒 😞 😔 😟 😕 🙁" +
+            " ☹️ 😣 😖 😫 😩 😤 😠 😡 😶 😐 😑 😯 😦 😧 😮 😲 😵 😳 😱 😨 😰 😢 😥 🤤 😭 😓 😪 😴 🙄 🤔 🤥 😬 🤐 🤢 🤧 😷 🤒 🤕 😈 👿" +
+            " 👹 👺 💩 👻 💀 ☠️ 👽 👾 🤖 🎃 😺 😸 😹 😻 😼 😽 🙀 😿 😾 👐 🙌 👏 🙏 🤝 👍 👎 👊 ✊ 🤛 🤜 🤞 ✌️ 🤘 👌 👈 👉 👆 👇 ☝️ ✋ 🤚" +
+            " 🖐 🖖 👋 🤙 💪 🖕 ✍️ 🤳 💅 🖖 💄 💋 👄 👅 👂 👃 👣 👁 👀 🗣 👤 👥 👶 👦 👧 👨 👩 👱‍♀️ 👱 👴 👵 👲 👳‍♀️ 👳 👮‍♀️ 👮 👷‍♀️ 👷" +
+            " 💂‍♀️ 💂 🕵️‍♀️ 🕵️ 👩‍⚕️ 👨‍⚕️ 👩‍🌾 👨‍🌾 👩‍🍳 👨‍🍳 👩‍🎓 👨‍🎓 👩‍🎤 👨‍🎤 👩‍🏫 👨‍🏫 👩‍🏭 👨‍🏭 👩‍💻 👨‍💻 👩‍💼 👨‍💼 👩‍🔧 👨‍🔧 👩‍🔬 👨‍🔬" +
+            " 👩‍🎨 👨‍🎨 👩‍🚒 👨‍🚒 👩‍✈️ 👨‍✈️ 👩‍🚀 👨‍🚀 👩‍⚖️ 👨‍⚖️ 🤶 🎅 👸 🤴 👰 🤵 👼 🤰 🙇‍♀️ 🙇 💁 💁‍♂️ 🙅 🙅‍♂️ 🙆 🙆‍♂️ 🙋 🙋‍♂️ 🤦‍♀️ 🤦‍♂️ 🤷‍♀" +
+            "️ 🤷‍♂️ 🙎 🙎‍♂️ 🙍 🙍‍♂️ 💇 💇‍♂️ 💆 💆‍♂️ 🕴 💃 🕺 👯 👯‍♂️ 🚶‍♀️ 🚶 🏃‍♀️ 🏃 👫 👭 👬 💑 👩‍❤️‍👩 👨‍❤️‍👨 💏 👩‍❤️‍💋‍👩 👨‍❤️‍💋‍👨 👪 👨‍👩‍👧" +
+            " 👨‍👩‍👧‍👦 👨‍👩‍👦‍👦 👨‍👩‍👧‍👧 👩‍👩‍👦 👩‍👩‍👧 👩‍👩‍👧‍👦 👩‍👩‍👦‍👦 👩‍👩‍👧‍👧 👨‍👨‍👦 👨‍👨‍👧 👨‍👨‍👧‍👦 👨‍👨‍👦‍👦 👨‍👨‍👧‍👧 👩‍👦 👩‍👧" +
+            " 👩‍👧‍👦 👩‍👦‍👦 👩‍👧‍👧 👨‍👦 👨‍👧 👨‍👧‍👦 👨‍👦‍👦 👨‍👧‍👧 👚 👕 👖 👔 👗 👙 👘 👠 👡 👢 👞 👟 👒 🎩 🎓 👑 ⛑ 🎒 👝 👛 👜 💼 👓" +
+            " 🕶 🌂 ☂️";
+        var EmojiArr = EMOJIS.split(' ');
+        var groupNum = Math.ceil(EmojiArr.length / (24));
+        var items = [];
+        for (var i = 0; i < groupNum; i++) {
+            items.push(EmojiArr.slice(i * 24, (i + 1) * 24));
+        }
+        return items;
+    };
+    return EmojiProvider;
+}());
+EmojiProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], EmojiProvider);
+
+//# sourceMappingURL=emoji.js.map
+
+/***/ }),
+
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(221);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -378,27 +448,29 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 218:
+/***/ 221:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_about_about__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__ = __webpack_require__(269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_signin_signin__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_signup_signup__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_profile_profile__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_call_call__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_chat_chat__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_map_map__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_about_about__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_signin_signin__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_signup_signup__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_profile_profile__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_call_call__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_chat_chat__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_map_map__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_emoji__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -420,6 +492,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+//import { ChatService } from '../providers/chat-service';
+
+
 
 var AppModule = (function () {
     function AppModule() {
@@ -430,20 +505,21 @@ AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_4__pages_about_about__["a" /* AboutPage */],
-            __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__["a" /* ContactPage */],
-            __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__["a" /* TabsPage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_signin_signin__["a" /* SigninPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_signup_signup__["a" /* SignupPage */],
-            __WEBPACK_IMPORTED_MODULE_10__pages_profile_profile__["a" /* ProfilePage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_call_call__["a" /* CallPage */],
-            __WEBPACK_IMPORTED_MODULE_12__pages_chat_chat__["a" /* ChatPage */],
-            __WEBPACK_IMPORTED_MODULE_13__pages_map_map__["a" /* MapPage */]
+            __WEBPACK_IMPORTED_MODULE_5__pages_about_about__["a" /* AboutPage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__["a" /* ContactPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__["a" /* TabsPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_signin_signin__["a" /* SigninPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_signup_signup__["a" /* SignupPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_profile_profile__["a" /* ProfilePage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_call_call__["a" /* CallPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_chat_chat__["a" /* ChatPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_map_map__["a" /* MapPage */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
+            __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
                 scrollPadding: false,
                 scrollAssist: true,
                 autoFocusAssist: false
@@ -455,28 +531,30 @@ AppModule = __decorate([
                     { loadChildren: '../pages/chat/chat.module#ChatPageModule', name: 'ChatPage', segment: 'chat', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/map/map.module#MapPageModule', name: 'MapPage', segment: 'map', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/signin/signin.module#SigninPageModule', name: 'SigninPage', segment: 'signin', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/maptest/maptest.module#MaptestPageModule', name: 'MaptestPage', segment: 'maptest', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/maptest/maptest.module#MaptestPageModule', name: 'MaptestPage', segment: 'maptest', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/message/message.module#MessagePageModule', name: 'MessagePage', segment: 'message', priority: 'low', defaultHistory: [] }
                 ]
             }),
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_4__pages_about_about__["a" /* AboutPage */],
-            __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__["a" /* ContactPage */],
-            __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__["a" /* TabsPage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_signin_signin__["a" /* SigninPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_signup_signup__["a" /* SignupPage */],
-            __WEBPACK_IMPORTED_MODULE_10__pages_profile_profile__["a" /* ProfilePage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_call_call__["a" /* CallPage */],
-            __WEBPACK_IMPORTED_MODULE_12__pages_chat_chat__["a" /* ChatPage */],
-            __WEBPACK_IMPORTED_MODULE_13__pages_map_map__["a" /* MapPage */]
+            __WEBPACK_IMPORTED_MODULE_5__pages_about_about__["a" /* AboutPage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__["a" /* ContactPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__["a" /* TabsPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_signin_signin__["a" /* SigninPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_signup_signup__["a" /* SignupPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_profile_profile__["a" /* ProfilePage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_call_call__["a" /* CallPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_chat_chat__["a" /* ChatPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_map_map__["a" /* MapPage */],
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */],
-            { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+            __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_15__providers_emoji__["a" /* EmojiProvider */]
         ]
     })
 ], AppModule);
@@ -485,15 +563,15 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 259:
+/***/ 262:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_signin_signin__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -528,16 +606,16 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/app/app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\app\app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 268:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -563,16 +641,16 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      About\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\about\about.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
 ], AboutPage);
 
 //# sourceMappingURL=about.js.map
 
 /***/ }),
 
-/***/ 269:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -598,9 +676,9 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Contact\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n\n    <ion-item>\n\n      <ion-icon name="ionic" item-left></ion-icon>\n\n      @ionicframework\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\contact\contact.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
 ], ContactPage);
 
 //# sourceMappingURL=contact.js.map
@@ -615,7 +693,7 @@ ContactPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tabs_tabs__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tabs_tabs__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -648,11 +726,11 @@ var SigninPage = (function () {
     return SigninPage;
 }());
 SigninPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-signin',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/signin/signin.html"*/'<!--\n  Generated template for the SigninPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header> -->\n  <!-- <ion-row> -->\n    <!-- <ion-col col-4 > -->\n\n    <!-- </ion-col> -->\n    <!-- <ion-col col-4> -->\n      <!-- <h3 style="color: #43d1ea">PharmApp</h3> -->\n      <!-- <img src="img/icon.png"> -->\n    <!-- </ion-col> -->\n  <!-- </ion-row> -->\n  <!-- <ion-row>\n    <ion-col col-12>\n        <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>\n    </ion-col>\n  </ion-row> -->\n<!-- </ion-header> -->\n\n<ion-content style="background-image: url(\'img/mains.png\');background-size:cover; background-repeat: no-repeat">\n  <img src="img/icon.png">\n  <div padding>\n    <ion-segment [(ngModel)]="segmentPages">\n      <ion-segment-button value="signIn">\n        signIn\n      </ion-segment-button>\n      <ion-segment-button value="signUp">\n        signUp\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segmentPages">\n    <ion-list *ngSwitchCase="\'signIn\'">\n      <!-- <div class="userName"> -->\n  <ion-item class="firstInput">\n    <!-- <ion-label fixed>Username</ion-label> -->\n    <ion-input type="text" placeholder="Username"></ion-input>\n  </ion-item>\n  <!-- </div> -->\n  <ion-item class="secondInput">\n  <!-- <ion-label fixed>Password</ion-label> -->\n  <ion-input type="password" placeholder="Password"></ion-input>\n  </ion-item>\n    <div padding id="signInButton">\n        <button (click)="totabs()" ion-button color="primary" round>Sign In</button>\n  </div>\n  </ion-list>\n\n    <ion-list *ngSwitchCase="\'signUp\'">\n      <ion-item class="firstInput">\n    <!-- <ion-label floating>First Name</ion-label> -->\n    <ion-input type="text" placeholder="First Name"></ion-input>\n  </ion-item>\n\n  <ion-item class="secondInput">\n<!-- <ion-label floating>Last Name</ion-label> -->\n<ion-input type="text" placeholder="Last Name"></ion-input>\n</ion-item>\n\n<ion-item class="secondInput">\n<!-- <ion-label floating>Phone Number</ion-label> -->\n<ion-input type="tel" placeholder="Phone Number"></ion-input>\n</ion-item>\n<div padding id="signUpButton">\n    <button (click)="toNextPage()"ion-button color="primary" round>Next</button>\n</div>\n    </ion-list>\n  </div>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/signin/signin.html"*/,
+        selector: 'page-signin',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\signin\signin.html"*/'<!--\n\n  Generated template for the SigninPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header> -->\n\n  <!-- <ion-row> -->\n\n    <!-- <ion-col col-4 > -->\n\n\n\n    <!-- </ion-col> -->\n\n    <!-- <ion-col col-4> -->\n\n      <!-- <h3 style="color: #43d1ea">PharmApp</h3> -->\n\n      <!-- <img src="img/icon.png"> -->\n\n    <!-- </ion-col> -->\n\n  <!-- </ion-row> -->\n\n  <!-- <ion-row>\n\n    <ion-col col-12>\n\n        <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>\n\n    </ion-col>\n\n  </ion-row> -->\n\n<!-- </ion-header> -->\n\n\n\n<ion-content style="background-image: url(\'img/mains.png\');background-size:cover; background-repeat: no-repeat">\n\n  <img src="img/icon.png">\n\n  <div padding>\n\n    <ion-segment [(ngModel)]="segmentPages">\n\n      <ion-segment-button value="signIn">\n\n        signIn\n\n      </ion-segment-button>\n\n      <ion-segment-button value="signUp">\n\n        signUp\n\n      </ion-segment-button>\n\n    </ion-segment>\n\n  </div>\n\n\n\n  <div [ngSwitch]="segmentPages">\n\n    <ion-list *ngSwitchCase="\'signIn\'">\n\n      <!-- <div class="userName"> -->\n\n  <ion-item class="firstInput">\n\n    <!-- <ion-label fixed>Username</ion-label> -->\n\n    <ion-input type="text" placeholder="Username"></ion-input>\n\n  </ion-item>\n\n  <!-- </div> -->\n\n  <ion-item class="secondInput">\n\n  <!-- <ion-label fixed>Password</ion-label> -->\n\n  <ion-input type="password" placeholder="Password"></ion-input>\n\n  </ion-item>\n\n    <div padding id="signInButton">\n\n        <button (click)="totabs()" ion-button color="primary" round>Sign In</button>\n\n  </div>\n\n  </ion-list>\n\n\n\n    <ion-list *ngSwitchCase="\'signUp\'">\n\n      <ion-item class="firstInput">\n\n    <!-- <ion-label floating>First Name</ion-label> -->\n\n    <ion-input type="text" placeholder="First Name"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item class="secondInput">\n\n<!-- <ion-label floating>Last Name</ion-label> -->\n\n<ion-input type="text" placeholder="Last Name"></ion-input>\n\n</ion-item>\n\n\n\n<ion-item class="secondInput">\n\n<!-- <ion-label floating>Phone Number</ion-label> -->\n\n<ion-input type="tel" placeholder="Phone Number"></ion-input>\n\n</ion-item>\n\n<div padding id="signUpButton">\n\n    <button (click)="toNextPage()"ion-button color="primary" round>Next</button>\n\n</div>\n\n    </ion-list>\n\n  </div>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\signin\signin.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], SigninPage);
 
 //# sourceMappingURL=signin.js.map
@@ -694,16 +772,16 @@ var SignupPage = (function () {
     return SignupPage;
 }());
 SignupPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-signup',template:/*ion-inline-start:"/home/romeo/Projects/PharmApp/src/pages/signup/signup.html"*/'<!--\n  Generated template for the SignupPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>signup</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n  <ion-grid>\n        <ion-item>\n          <ion-row radio-group>\n      <ion-col col-6>\n        <ion-thumbnail item-start>\n          <img src="img/008-boy-1.png">\n        </ion-thumbnail>\n        <ion-item>\n          <!-- <ion-label>Male</ion-label> -->\n          <ion-radio name="gender" value="male"></ion-radio>\n        </ion-item>\n    </ion-col>\n    <!-- <ion-label>Male</ion-label>\n    <ion-radio checked="true" value="male"></ion-radio> -->\n\n\n        <ion-col col-6>\n          <ion-thumbnail item-end>\n          <img src="img/002-girl-1.png" >\n          </ion-thumbnail>\n          <ion-item>\n            <!-- <ion-label>Female</ion-label> -->\n            <ion-radio name="gender" value="female"></ion-radio>\n          </ion-item>\n        </ion-col>\n        <!-- <ion-label>Female</ion-label>\n    <ion-radio value="female"></ion-radio> -->\n\n        </ion-row>\n      </ion-item>\n    </ion-grid>\n  <ion-list>\n\n  <ion-item class="firstInput">\n    <!-- <ion-label floating>Email</ion-label> -->\n    <ion-input type="email" placeholder="Email"></ion-input>\n  </ion-item>\n\n  <ion-item class="secondInput">\n    <!-- <ion-label floating>Password</ion-label> -->\n    <ion-input type="password" placeholder="Password"></ion-input>\n  </ion-item>\n\n  <ion-item class="secondInput">\n    <!-- <ion-label floating>Confirm Password</ion-label> -->\n    <ion-input type="password" placeholder="Confirm Password"></ion-input>\n  </ion-item>\n  <div padding id="signUpButton">\n      <button ion-button color="primary" round>Sign Up</button>\n  </div>\n</ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/home/romeo/Projects/PharmApp/src/pages/signup/signup.html"*/,
+        selector: 'page-signup',template:/*ion-inline-start:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\signup\signup.html"*/'<!--\n\n  Generated template for the SignupPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>signup</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding style="background-image:url(\'img/signup.png\'); background-size: cover; background-repeat: no-repeat;">\n\n  <ion-grid>\n\n        <ion-item>\n\n          <ion-row radio-group>\n\n      <ion-col col-6>\n\n        <ion-thumbnail item-start>\n\n          <img src="img/008-boy-1.png">\n\n        </ion-thumbnail>\n\n        <ion-item>\n\n          <!-- <ion-label>Male</ion-label> -->\n\n          <ion-radio name="gender" value="male"></ion-radio>\n\n        </ion-item>\n\n    </ion-col>\n\n    <!-- <ion-label>Male</ion-label>\n\n    <ion-radio checked="true" value="male"></ion-radio> -->\n\n\n\n\n\n        <ion-col col-6>\n\n          <ion-thumbnail item-end>\n\n          <img src="img/002-girl-1.png" >\n\n          </ion-thumbnail>\n\n          <ion-item>\n\n            <!-- <ion-label>Female</ion-label> -->\n\n            <ion-radio name="gender" value="female"></ion-radio>\n\n          </ion-item>\n\n        </ion-col>\n\n        <!-- <ion-label>Female</ion-label>\n\n    <ion-radio value="female"></ion-radio> -->\n\n\n\n        </ion-row>\n\n      </ion-item>\n\n    </ion-grid>\n\n  <ion-list>\n\n\n\n  <ion-item class="firstInput">\n\n    <!-- <ion-label floating>Email</ion-label> -->\n\n    <ion-input type="email" placeholder="Email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item class="secondInput">\n\n    <!-- <ion-label floating>Password</ion-label> -->\n\n    <ion-input type="password" placeholder="Password"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item class="secondInput">\n\n    <!-- <ion-label floating>Confirm Password</ion-label> -->\n\n    <ion-input type="password" placeholder="Confirm Password"></ion-input>\n\n  </ion-item>\n\n  <div padding id="signUpButton">\n\n      <button ion-button color="primary" round>Sign Up</button>\n\n  </div>\n\n</ion-list>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TOSHIBA\Desktop\MyFiles\Very Important Stuffs\ALL PROJECTS\IONIC 2 WORKSPACE\PharmApp\src\pages\signup\signup.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], SignupPage);
 
 //# sourceMappingURL=signup.js.map
 
 /***/ })
 
-},[199]);
+},[202]);
 //# sourceMappingURL=main.js.map

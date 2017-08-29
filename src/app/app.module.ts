@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { HttpModule } from "@angular/http";
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
@@ -15,6 +16,8 @@ import { ChatPage } from '../pages/chat/chat';
 import { MapPage } from '../pages/map/map';
 
 
+//import { ChatService } from '../providers/chat-service';
+import { EmojiProvider } from '../providers/emoji';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,10 +35,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     CallPage,
     ChatPage,
-    MapPage
+    MapPage,
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp, {
       scrollPadding: false,
       scrollAssist: true,
@@ -54,13 +58,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     CallPage,
     ChatPage,
-    MapPage
+    MapPage,
+
 
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    EmojiProvider
   ]
 })
 export class AppModule {}

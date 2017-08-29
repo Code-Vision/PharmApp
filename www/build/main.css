@@ -25210,6 +25210,28 @@ ion-navbar.toolbar {
   background: transparent;
 }
 
+emoji-picker .emoji-picker {
+  height: 195px;
+  border-top: 1px solid #999;
+}
+
+emoji-picker .emoji-picker .emoji-items {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+emoji-picker .emoji-picker .emoji-items .emoji-item {
+  display: block;
+  float: left;
+  width: 12.5%;
+  height: 42px;
+  font-size: 1.2em;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 page-home .searchbar-md .searchbar-input {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -25297,6 +25319,155 @@ page-maptest #floating-panel {
 
 page-maptest #map {
   height: 100%;
+}
+
+page-message ion-content .scroll-content {
+  background-color: #f5f5f5;
+}
+
+page-message ion-footer {
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.11);
+  background-color: #fff;
+  height: 255px;
+}
+
+page-message .line-breaker {
+  white-space: pre-line;
+}
+
+page-message .input-wrap {
+  padding: 0 5px;
+}
+
+page-message .input-wrap ion-textarea {
+  position: static;
+}
+
+page-message .input-wrap ion-col.col {
+  padding: 0;
+}
+
+page-message .input-wrap button {
+  width: 100%;
+  height: 55px;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+page-message .input-wrap textarea {
+  border-bottom: 1px #387ef5;
+  border-style: solid;
+}
+
+page-message .message-wrap {
+  padding: 0 10px;
+}
+
+page-message .message-wrap .message {
+  position: relative;
+  padding: 7px 0;
+}
+
+page-message .message-wrap .message .user-img {
+  position: absolute;
+  border-radius: 45px;
+  width: 45px;
+  height: 45px;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.36);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.36);
+}
+
+page-message .message-wrap .message .msg-detail {
+  width: 100%;
+  display: inline-block;
+}
+
+page-message .message-wrap .message .msg-detail p {
+  margin: 0;
+}
+
+page-message .message-wrap .message .msg-detail .msg-info p {
+  font-size: .8em;
+  color: #888;
+}
+
+page-message .message-wrap .message .msg-detail .msg-content {
+  position: relative;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: #fff;
+  width: auto;
+}
+
+page-message .message-wrap .message .msg-detail .msg-content span.triangle {
+  background-color: #fff;
+  border-radius: 2px;
+  height: 8px;
+  width: 8px;
+  top: 12px;
+  display: block;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+page-message .message-wrap .message.left .msg-content {
+  background-color: #fff;
+  float: left;
+}
+
+page-message .message-wrap .message.left .msg-detail {
+  padding-left: 60px;
+}
+
+page-message .message-wrap .message.left .user-img {
+  left: 0;
+}
+
+page-message .message-wrap .message.left .msg-content {
+  color: #343434;
+}
+
+page-message .message-wrap .message.left .msg-content span.triangle {
+  border-top-width: 0;
+  border-right-width: 0;
+  left: -5px;
+}
+
+page-message .message-wrap .message.right .msg-detail {
+  padding-right: 60px;
+}
+
+page-message .message-wrap .message.right .msg-detail .msg-info {
+  text-align: right;
+}
+
+page-message .message-wrap .message.right .user-img {
+  right: 0;
+}
+
+page-message .message-wrap .message.right ion-spinner {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+page-message .message-wrap .message.right .msg-content {
+  background-color: #387ef5;
+  float: right;
+}
+
+page-message .message-wrap .message.right .msg-content span.triangle {
+  background-color: #387ef5;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  right: -5px;
 }
 
 page-profile .list-header-md {

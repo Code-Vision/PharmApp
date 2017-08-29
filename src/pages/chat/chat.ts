@@ -15,7 +15,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ChatPage {
 
+    toUser:Object;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.toUser = {
+      toUserId:'210000198410281948',
+      toUserName:'Hancock'
+    }
   }
 
   ionViewDidLoad() {

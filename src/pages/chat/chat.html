@@ -18,6 +18,16 @@
 
 
 
-<ion-content style="background-image:url('img/signup.png'); background-size: cover; background-repeat: no-repeat;">
+<ion-content style="background-image: url('img/mains.png');background-size:cover; background-repeat: no-repeat">
+  <ion-list>
 
+    <ion-item navPush="MessagePage"
+              [navParams]="toUser">
+      <ion-avatar item-left>
+        <img src="./assets/to-user.jpg">
+      </ion-avatar>
+      <h2>Hancock</h2>
+      <p>If at first you don’t succeed, call it version 1.0</p>
+    </ion-item>
+  </ion-list>
 </ion-content>
