@@ -39,7 +39,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpModule,IonicModule.forRoot(MyApp, {
+       tabsHideOnSubPages: true
+     }),
     IonicModule.forRoot(MyApp, {
       scrollPadding: false,
       scrollAssist: true,
