@@ -14,6 +14,8 @@ import { ProfilePage } from '../pages/profile/profile';
 import { CallPage } from '../pages/call/call';
 import { ChatPage } from '../pages/chat/chat';
 import { MapPage } from '../pages/map/map';
+import { ReadMorePage } from '../pages/read-more/read-more';
+import { CommentsPage } from '../pages/comments/comments';
 
 
 //import { ChatService } from '../providers/chat-service';
@@ -36,16 +38,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CallPage,
     ChatPage,
     MapPage,
+    ReadMorePage,
+    CommentsPage
   ],
   imports: [
-    BrowserModule,
-    HttpModule,IonicModule.forRoot(MyApp, {
-       tabsHideOnSubPages: true
-     }),
-    IonicModule.forRoot(MyApp, {
+    BrowserModule,HttpModule,IonicModule.forRoot(MyApp, {
       scrollPadding: false,
       scrollAssist: true,
-      autoFocusAssist: false
+      autoFocusAssist: false,
+      tabsHideOnSubPages: true
     }),
   ],
   bootstrap: [IonicApp],
@@ -61,8 +62,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CallPage,
     ChatPage,
     MapPage,
-
-
+    ReadMorePage,
+    CommentsPage
   ],
   providers: [
     StatusBar,

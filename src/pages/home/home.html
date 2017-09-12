@@ -109,12 +109,14 @@
     <p>November 5, 1955</p>
   </ion-item>
 
+<div (click)="toreadmore()">
   <img src="img/gensen.jpg">
 
   <ion-card-content>
     <h5>Ginseng, Fish, Berries, or Caffeine?</h5>
     <p>Listen to the buzz about foods and dietary supplements, and you'll believe they can do everything from sharpen focus to enhance memory, attention span, and brain function.....</p>
   </ion-card-content>
+  </div>
 
   <ion-row>
     <ion-col>
@@ -126,7 +128,7 @@
     <ion-col>
       <button ion-button icon-left clear small>
         <ion-icon name="text"></ion-icon>
-        <div>4 Comments</div>
+        <div (click)="tocommentmodal()">4 Comments</div>
       </button>
     </ion-col>
     <ion-col center text-center>
@@ -149,7 +151,7 @@
   <h2>McFly Pharmacy</h2>
   <p>November 5, 1955</p>
 </ion-item>
-
+<div (click)="toreadmore()">
 <img src="img/smoking.jpg">
 
 <ion-card-content>
@@ -158,6 +160,7 @@
   <p>Sipping cold water through a straw can help replace the act of sucking on a cigarette. It also releases dopamine, a brain chemical that can help ease bad moods.
 Eating small meals can also help you get past the urge to smoke. Choose lean, healthy foods to avoid weight gain.</p>
 </ion-card-content>
+</div>
 
 <ion-row>
   <ion-col>
@@ -169,7 +172,7 @@ Eating small meals can also help you get past the urge to smoke. Choose lean, he
   <ion-col>
     <button ion-button icon-left clear small>
       <ion-icon name="text"></ion-icon>
-      <div>4 Comments</div>
+      <div (click)="tocommentmodal()">4 Comments</div>
     </button>
   </ion-col>
   <ion-col center text-center>
@@ -193,6 +196,7 @@ Eating small meals can also help you get past the urge to smoke. Choose lean, he
   <p>November 5, 1955</p>
 </ion-item>
 
+<div (click)="toreadmore()">
 <img src="img/oat.jpg">
 
 <ion-card-content>
@@ -200,6 +204,7 @@ Eating small meals can also help you get past the urge to smoke. Choose lean, he
   <b>Oatmeal</b>
   <p>Food with lots of fiber can help your liver work at its best. Want one that's a great way to start your day? Try oatmeal. Research shows it can help you shed some extra pounds and belly fat, which is a good way to keep away liver disease.... </p>
 </ion-card-content>
+</div>
 
 <ion-row>
   <ion-col>
@@ -211,7 +216,7 @@ Eating small meals can also help you get past the urge to smoke. Choose lean, he
   <ion-col>
     <button ion-button icon-left clear small>
       <ion-icon name="text"></ion-icon>
-      <div>4 Comments</div>
+      <div (click)="tocommentmodal()">4 Comments</div>
     </button>
   </ion-col>
   <ion-col center text-center>

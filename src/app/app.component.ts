@@ -9,7 +9,9 @@ import { SignupPage } from '../pages/signup/signup';
 // import { ProfilePage } from '../pages/profile/profile';
 // import { CallPage } from '../pages/call/call';
 // import { ChatPage } from '../pages/chat/chat';
-// import { MapPage } from '../pages/map/map';
+import { MapPage } from '../pages/map/map';
+import { ReadMorePage } from '../pages/read-more/read-more';
+import { CommentsPage } from '../pages/comments/comments';
 
 @Component({
   templateUrl: 'app.html'
